@@ -22,6 +22,7 @@
         <dcterms:description xml:lang="es">La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados.</dcterms:description>
         <dcterms:description xml:lang="en">The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-23</dcterms:issued>
         <dcterms:title xml:lang="es">Ontología de Servicios Públicos</dcterms:title>
         <dcterms:title xml:lang="en">The Public Services Ontology</dcterms:title>
         <vann:preferredNamespacePrefix>edintserpub</vann:preferredNamespacePrefix>
