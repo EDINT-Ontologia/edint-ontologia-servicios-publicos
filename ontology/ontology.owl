@@ -180,9 +180,9 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
     
 
 
-    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasCompetentAuthority -->
+    <!-- http://purl.org/vocab/cpsv#hasCompetentAuthority -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasCompetentAuthority">
+    <owl:ObjectProperty rdf:about="http://purl.org/vocab/cpsv#hasCompetentAuthority">
         <rdfs:comment xml:lang="en">It links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g"/>
         <rdfs:label xml:lang="en">has Competent Authority</rdfs:label>
@@ -191,9 +191,9 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
     
 
 
-    <!-- http://www.semanticweb.org/owl/owlapi/turtle#hasContactPoint -->
+    <!-- https://semiceu.github.io/CPSV-AP/releases/3.2.0/hasContactPoint -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#hasContactPoint">
+    <owl:ObjectProperty rdf:about="https://semiceu.github.io/CPSV-AP/releases/3.2.0/hasContactPoint">
         <rdfs:comment xml:lang="en">The main contact information of the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://data.europa.eu/m8g"/>
         <rdfs:label xml:lang="en">contact Point</rdfs:label>
@@ -202,9 +202,9 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
     
 
 
-    <!-- http://www.semanticweb.org/owl/owlapi/turtle#typeProcedure -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#typeProcedure -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#typeProcedure">
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#typeProcedure">
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure"/>
         <rdfs:range>
             <owl:Class>
@@ -225,9 +225,9 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
     
 
 
-    <!-- http://www.semanticweb.org/owl/owlapi/turtle#typePublicService -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#typePublicService -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#typePublicService">
+    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#typePublicService">
         <rdfs:subPropertyOf rdf:resource="http://data.europa.eu/m8g/isClassifiedBy"/>
         <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService"/>
         <rdfs:range>
@@ -409,9 +409,9 @@ This definition is consistent with the more detailed definition of a &quot;publi
     
 
 
-    <!-- http://www.semanticweb.org/owl/owlapi/turtle#AdministrativeProcedure -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#AdministrativeProcedure">
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure">
         <rdfs:comment xml:lang="en">Formal process followed by a public administration to manage, evaluate, and resolve a request, case, or administrative action.</rdfs:comment>
         <rdfs:comment xml:lang="es">Proceso formal seguido por una administración pública para gestionar, evaluar y resolver una solicitud, expediente o actuación administrativa.</rdfs:comment>
         <rdfs:label xml:lang="en">Administrative Procedure</rdfs:label>
@@ -420,9 +420,9 @@ This definition is consistent with the more detailed definition of a &quot;publi
     
 
 
-    <!-- http://www.semanticweb.org/owl/owlapi/turtle#PublicService -->
+    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/owl/owlapi/turtle#PublicService">
+    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService">
         <rdfs:subClassOf rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
         <rdfs:comment xml:lang="en">Municipal public service offered by a public administration or by an entity on its behalf.</rdfs:comment>
         <rdfs:comment xml:lang="es">Servicio público municipal ofrecido por una administración pública o por una entidad en su nombre.</rdfs:comment>
