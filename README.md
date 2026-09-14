@@ -12,7 +12,7 @@ El alcance de la Ontología de Servicios Públicos está limitado a la descripci
 
 # Prefijo y espacio de nombres de la ontología
 
-El prefijo de la ontología es: **edintserpub** y se encuentra publicada en el espacio de nombres: **[http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#](http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#)**
+El prefijo de la ontología es: **edintserpub** y se encuentra publicada en el espacio de nombres: **[https://edint.es/def/servicios-publicos#](https://edint.es/def/servicios-publicos#)**
 
 # Modelo conceptual de la ontología
 

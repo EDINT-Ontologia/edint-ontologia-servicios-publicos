@@ -1,6 +1,6 @@
 # SERP09: ¿Qué reglas sigue cada servicio público?
 
-PREFIX serpub: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#>
+PREFIX serpub: <https://edint.es/def/servicios-publicos#>
 PREFIX cpsv: <http://purl.org/vocab/cpsv#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 

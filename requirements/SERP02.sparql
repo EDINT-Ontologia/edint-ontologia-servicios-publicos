@@ -1,6 +1,6 @@
 # SERP02: ¿A qué tipo pertenece cada servicio público?
 
-PREFIX serpub: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#>
+PREFIX serpub: <https://edint.es/def/servicios-publicos#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 SELECT ?servicioPublico ?tipoServicio ?etiquetaTipoServicio

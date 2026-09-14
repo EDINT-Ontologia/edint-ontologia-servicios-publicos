@@ -1,6 +1,6 @@
 # SERP08: ¿Qué servicios públicos son responsabilidad de una organización pública concreta?
 
-PREFIX serpub: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#>
+PREFIX serpub: <https://edint.es/def/servicios-publicos#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?servicioPublico ?etiquetaServicio
