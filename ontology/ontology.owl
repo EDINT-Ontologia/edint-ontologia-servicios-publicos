@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#"
+<rdf:RDF xmlns="https://edint.es/def/servicios-publicos#"
      xml:base="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -9,8 +9,8 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann#"
      xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:edintserpub="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#">
-    <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#">
+     xmlns:edintserpub="https://edint.es/def/servicios-publicos#">
+    <owl:Ontology rdf:about="https://edint.es/def/servicios-publicos#">
         <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos/0.1.0"/>
         <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-23</dcterms:created>
         <dcterms:creator>Daniel Doña</dcterms:creator>
@@ -26,7 +26,7 @@
         <dcterms:title xml:lang="es">Ontología de Servicios Públicos</dcterms:title>
         <dcterms:title xml:lang="en">The Public Services Ontology</dcterms:title>
         <vann:preferredNamespacePrefix>edintserpub</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#"/>
+        <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/servicios-publicos#"/>
         <owl:versionInfo>0.1.0</owl:versionInfo>
     </owl:Ontology>
     
@@ -168,11 +168,11 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#hasAdministrativeProcedure -->
+    <!-- https://edint.es/def/servicios-publicos#hasAdministrativeProcedure -->
 
-    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#hasAdministrativeProcedure">
-        <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService"/>
-        <rdfs:range rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure"/>
+    <owl:ObjectProperty rdf:about="https://edint.es/def/servicios-publicos#hasAdministrativeProcedure">
+        <rdfs:domain rdf:resource="https://edint.es/def/servicios-publicos#PublicService"/>
+        <rdfs:range rdf:resource="https://edint.es/def/servicios-publicos#AdministrativeProcedure"/>
         <rdfs:comment xml:lang="es">Relaciona un servicio público con el procedimiento administrativo mediante el cual se gestiona, tramita o resuelve.</rdfs:comment>
         <rdfs:comment xml:lang="en">Relates a public service to the administrative procedure through which it is managed, processed, or resolved.</rdfs:comment>
         <rdfs:label xml:lang="en">has Administrative Procedure</rdfs:label>
@@ -203,10 +203,10 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#typeProcedure -->
+    <!-- https://edint.es/def/servicios-publicos#typeProcedure -->
 
-    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#typeProcedure">
-        <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure"/>
+    <owl:ObjectProperty rdf:about="https://edint.es/def/servicios-publicos#typeProcedure">
+        <rdfs:domain rdf:resource="https://edint.es/def/servicios-publicos#AdministrativeProcedure"/>
         <rdfs:range>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -226,11 +226,11 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#typePublicService -->
+    <!-- https://edint.es/def/servicios-publicos#typePublicService -->
 
-    <owl:ObjectProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#typePublicService">
+    <owl:ObjectProperty rdf:about="https://edint.es/def/servicios-publicos#typePublicService">
         <rdfs:subPropertyOf rdf:resource="http://data.europa.eu/m8g/isClassifiedBy"/>
-        <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService"/>
+        <rdfs:domain rdf:resource="https://edint.es/def/servicios-publicos#PublicService"/>
         <rdfs:range>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -267,10 +267,10 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#availability -->
+    <!-- https://edint.es/def/servicios-publicos#availability -->
 
-    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#availability">
-        <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService"/>
+    <owl:DatatypeProperty rdf:about="https://edint.es/def/servicios-publicos#availability">
+        <rdfs:domain rdf:resource="https://edint.es/def/servicios-publicos#PublicService"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="es">Indica la disponibilidad actual o declarada del servicio público.</rdfs:comment>
         <rdfs:comment xml:lang="en">Indicates the current or declared availability of the public service.</rdfs:comment>
@@ -280,10 +280,10 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#identifier -->
+    <!-- https://edint.es/def/servicios-publicos#identifier -->
 
-    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#identifier">
-        <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService"/>
+    <owl:DatatypeProperty rdf:about="https://edint.es/def/servicios-publicos#identifier">
+        <rdfs:domain rdf:resource="https://edint.es/def/servicios-publicos#PublicService"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="en">A unique textual or numeric code assigned to a public service to enable its identification and management across systems or administrative processes.</rdfs:comment>
         <rdfs:comment xml:lang="es">Código textual o numérico único asignado a un servicio público para permitir su identificación y gestión en sistemas o procesos administrativos.</rdfs:comment>
@@ -293,10 +293,10 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#resolutionPeriod -->
+    <!-- https://edint.es/def/servicios-publicos#resolutionPeriod -->
 
-    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#resolutionPeriod">
-        <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure"/>
+    <owl:DatatypeProperty rdf:about="https://edint.es/def/servicios-publicos#resolutionPeriod">
+        <rdfs:domain rdf:resource="https://edint.es/def/servicios-publicos#AdministrativeProcedure"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
         <rdfs:comment xml:lang="es">Periodo de tiempo esperado o establecido para resolver un procedimiento administrativo asociado a un servicio público.</rdfs:comment>
         <rdfs:comment xml:lang="en">The expected or established period of time required to resolve an administrative procedure associated to a public service.</rdfs:comment>
@@ -306,10 +306,10 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#stateProcedure -->
+    <!-- https://edint.es/def/servicios-publicos#stateProcedure -->
 
-    <owl:DatatypeProperty rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#stateProcedure">
-        <rdfs:domain rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure"/>
+    <owl:DatatypeProperty rdf:about="https://edint.es/def/servicios-publicos#stateProcedure">
+        <rdfs:domain rdf:resource="https://edint.es/def/servicios-publicos#AdministrativeProcedure"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment xml:lang="es">Estado actual del proceso de resolución asociado a un servicio público, que indica si no ha comenzado, está en curso, ha sido resuelto o ha sido cerrado.</rdfs:comment>
         <rdfs:comment xml:lang="en">The current state of the resolution process associated with a public service, indicating whether it has not started, is in progress, has been resolved, or has been closed.</rdfs:comment>
@@ -398,21 +398,21 @@ This definition is consistent with the more detailed definition of a &quot;publi
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure -->
+    <!-- https://edint.es/def/servicios-publicos#AdministrativeProcedure -->
 
-    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure"/>
+    <owl:Class rdf:about="https://edint.es/def/servicios-publicos#AdministrativeProcedure"/>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService -->
+    <!-- https://edint.es/def/servicios-publicos#PublicService -->
 
-    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService"/>
+    <owl:Class rdf:about="https://edint.es/def/servicios-publicos#PublicService"/>
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure -->
+    <!-- https://edint.es/def/servicios-publicos#AdministrativeProcedure -->
 
-    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure">
+    <owl:Class rdf:about="https://edint.es/def/servicios-publicos#AdministrativeProcedure">
         <rdfs:comment xml:lang="en">Formal process followed by a public administration to manage, evaluate, and resolve a request, case, or administrative action.</rdfs:comment>
         <rdfs:comment xml:lang="es">Proceso formal seguido por una administración pública para gestionar, evaluar y resolver una solicitud, expediente o actuación administrativa.</rdfs:comment>
         <rdfs:label xml:lang="en">Administrative Procedure</rdfs:label>
@@ -421,9 +421,9 @@ This definition is consistent with the more detailed definition of a &quot;publi
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService -->
+    <!-- https://edint.es/def/servicios-publicos#PublicService -->
 
-    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService">
+    <owl:Class rdf:about="https://edint.es/def/servicios-publicos#PublicService">
         <rdfs:subClassOf rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
         <rdfs:comment xml:lang="en">Municipal public service offered by a public administration or by an entity on its behalf.</rdfs:comment>
         <rdfs:comment xml:lang="es">Servicio público municipal ofrecido por una administración pública o por una entidad en su nombre.</rdfs:comment>

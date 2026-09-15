@@ -1,6 +1,6 @@
 # SERP01: ¿Cuál es el identificador de cada servicio público?
 
-PREFIX serpub: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#>
+PREFIX serpub: <https://edint.es/def/servicios-publicos#>
 
 SELECT ?servicioPublico ?identificador
 WHERE {

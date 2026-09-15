@@ -194,7 +194,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
             </ul>
         </div>
         <div class="main-content">
-    <section class="file-card" id="SERP01_sparql"><div class="file-header">SERP01.sparql</div><div class="query-block"><span class="query-title">SERP01: ¿Cuál es el identificador de cada servicio público?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#&gt;</span>
+    <section class="file-card" id="SERP01_sparql"><div class="file-header">SERP01.sparql</div><div class="query-block"><span class="query-title">SERP01: ¿Cuál es el identificador de cada servicio público?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/servicios-publicos#&gt;</span>
 
 <span class="k">SELECT</span> <span class="nv">?servicioPublico</span> <span class="nv">?identificador</span>
 <span class="k">WHERE</span> <span class="p">{</span>
@@ -203,7 +203,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="p">}</span>
 <span class="k">ORDER BY</span> <span class="nv">?servicioPublico</span>
 </pre></div>
-</div></section><section class="file-card" id="SERP02_sparql"><div class="file-header">SERP02.sparql</div><div class="query-block"><span class="query-title">SERP02: ¿A qué tipo pertenece cada servicio público?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#&gt;</span>
+</div></section><section class="file-card" id="SERP02_sparql"><div class="file-header">SERP02.sparql</div><div class="query-block"><span class="query-title">SERP02: ¿A qué tipo pertenece cada servicio público?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/servicios-publicos#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">skos</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2004/02/skos/core#&gt;</span>
 
 <span class="k">SELECT</span> <span class="nv">?servicioPublico</span> <span class="nv">?tipoServicio</span> <span class="nv">?etiquetaTipoServicio</span>
@@ -220,7 +220,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="p">}</span>
 <span class="k">ORDER BY</span> <span class="nv">?servicioPublico</span> <span class="nv">?etiquetaTipoServicio</span>
 </pre></div>
-</div></section><section class="file-card" id="SERP03_sparql"><div class="file-header">SERP03.sparql</div><div class="query-block"><span class="query-title">SERP03: ¿Qué procedimientos administrativos están asociados a cada servicio público?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#&gt;</span>
+</div></section><section class="file-card" id="SERP03_sparql"><div class="file-header">SERP03.sparql</div><div class="query-block"><span class="query-title">SERP03: ¿Qué procedimientos administrativos están asociados a cada servicio público?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/servicios-publicos#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 
 <span class="k">SELECT</span> <span class="nv">?servicioPublico</span> <span class="nv">?etiquetaServicio</span> <span class="nv">?procedimiento</span> <span class="nv">?etiquetaProcedimiento</span>
@@ -242,7 +242,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="p">}</span>
 <span class="k">ORDER BY</span> <span class="nv">?etiquetaServicio</span> <span class="nv">?etiquetaProcedimiento</span>
 </pre></div>
-</div></section><section class="file-card" id="SERP04_sparql"><div class="file-header">SERP04.sparql</div><div class="query-block"><span class="query-title">SERP04: ¿Cuál es el estado actual de cada procedimiento administrativo?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#&gt;</span>
+</div></section><section class="file-card" id="SERP04_sparql"><div class="file-header">SERP04.sparql</div><div class="query-block"><span class="query-title">SERP04: ¿Cuál es el estado actual de cada procedimiento administrativo?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/servicios-publicos#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 
 <span class="k">SELECT</span> <span class="nv">?procedimiento</span> <span class="nv">?etiquetaProcedimiento</span> <span class="nv">?estado</span>
@@ -257,7 +257,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="p">}</span>
 <span class="k">ORDER BY</span> <span class="nv">?etiquetaProcedimiento</span>
 </pre></div>
-</div></section><section class="file-card" id="SERP05_sparql"><div class="file-header">SERP05.sparql</div><div class="query-block"><span class="query-title">SERP05: ¿Cuál es el periodo esperado de resolución de cada procedimiento administrativo?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#&gt;</span>
+</div></section><section class="file-card" id="SERP05_sparql"><div class="file-header">SERP05.sparql</div><div class="query-block"><span class="query-title">SERP05: ¿Cuál es el periodo esperado de resolución de cada procedimiento administrativo?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/servicios-publicos#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 
 <span class="k">SELECT</span> <span class="nv">?procedimiento</span> <span class="nv">?etiquetaProcedimiento</span> <span class="nv">?periodoResolucion</span>
@@ -272,7 +272,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="p">}</span>
 <span class="k">ORDER BY</span> <span class="nv">?etiquetaProcedimiento</span>
 </pre></div>
-</div></section><section class="file-card" id="SERP06_sparql"><div class="file-header">SERP06.sparql</div><div class="query-block"><span class="query-title">SERP06: ¿Qué organización pública es la autoridad competente de cada servicio público?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#&gt;</span>
+</div></section><section class="file-card" id="SERP06_sparql"><div class="file-header">SERP06.sparql</div><div class="query-block"><span class="query-title">SERP06: ¿Qué organización pública es la autoridad competente de cada servicio público?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/servicios-publicos#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">m8g</span><span class="p">:</span> <span class="nl">&lt;http://data.europa.eu/m8g/&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 
@@ -295,7 +295,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="p">}</span>
 <span class="k">ORDER BY</span> <span class="nv">?etiquetaOrganizacion</span> <span class="nv">?etiquetaServicio</span>
 </pre></div>
-</div></section><section class="file-card" id="SERP07_sparql"><div class="file-header">SERP07.sparql</div><div class="query-block"><span class="query-title">SERP07: ¿Qué punto de contacto está disponible para cada servicio público?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#&gt;</span>
+</div></section><section class="file-card" id="SERP07_sparql"><div class="file-header">SERP07.sparql</div><div class="query-block"><span class="query-title">SERP07: ¿Qué punto de contacto está disponible para cada servicio público?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/servicios-publicos#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 
 <span class="k">SELECT</span> <span class="nv">?servicioPublico</span> <span class="nv">?etiquetaServicio</span> <span class="nv">?puntoContacto</span> <span class="nv">?etiquetaPuntoContacto</span>
@@ -315,7 +315,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="p">}</span>
 <span class="k">ORDER BY</span> <span class="nv">?etiquetaServicio</span>
 </pre></div>
-</div></section><section class="file-card" id="SERP08_sparql"><div class="file-header">SERP08.sparql</div><div class="query-block"><span class="query-title">SERP08: ¿Qué servicios públicos son responsabilidad de una organización pública concreta?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#&gt;</span>
+</div></section><section class="file-card" id="SERP08_sparql"><div class="file-header">SERP08.sparql</div><div class="query-block"><span class="query-title">SERP08: ¿Qué servicios públicos son responsabilidad de una organización pública concreta?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/servicios-publicos#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 
 <span class="k">SELECT</span> <span class="nv">?servicioPublico</span> <span class="nv">?etiquetaServicio</span>
@@ -330,7 +330,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <span class="p">}</span>
 <span class="k">ORDER BY</span> <span class="nv">?etiquetaServicio</span>
 </pre></div>
-</div></section><section class="file-card" id="SERP09_sparql"><div class="file-header">SERP09.sparql</div><div class="query-block"><span class="query-title">SERP09: ¿Qué reglas sigue cada servicio público?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#&gt;</span>
+</div></section><section class="file-card" id="SERP09_sparql"><div class="file-header">SERP09.sparql</div><div class="query-block"><span class="query-title">SERP09: ¿Qué reglas sigue cada servicio público?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/servicios-publicos#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">cpsv</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/vocab/cpsv#&gt;</span>
 <span class="k">PREFIX</span> <span class="nn">rdfs</span><span class="p">:</span> <span class="nl">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span>
 
