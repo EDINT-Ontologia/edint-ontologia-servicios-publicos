@@ -1,9 +1,9 @@
 @prefix edintserpub:          <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> .
 @prefix esproc:               <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicio#> .
 
-@prefix edintkos:             <http://vocab.linkeddata.es/datosabiertos/kos/edint/> .
-@prefix edintkossertype:      <http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServicesType/> .
-@prefix edintkosproctype:     <http://vocab.linkeddata.es/datosabiertos/kos/edint/AdministrativeProcedureType/> .
+@prefix edintkos:             <https://edint.es/kos/> .
+@prefix edintkossertype:      <https://edint.es/kos/PublicServiceType/> .
+@prefix edintkosproctype:     <https://edint.es/kos/AdministrativeProcedureType/> .
 
 @prefix cpsv:                 <http://purl.org/vocab/cpsv#> .
 @prefix cv:                   <http://data.europa.eu/m8g/> .
@@ -44,7 +44,7 @@
     cv:hasChannel <http://vocab.linkeddata.es/datosabiertos/recurso/canal/CanalOficinaAtencionCiudadana> ;
 
     # Regla aplicable
-    cpsv:follows <http://vocab.linkeddata.es/datosabiertos/recurso/regla/OrdenanzaUrbanisticaMunicipal> .
+    cpsv:follows <http://vocab.linkeddata.es/datosabiertos/recurso/regla/OrdenanzaUrbanisticaMunicipal> ;
 
     # SKOS skos-AdministrativeProcedures.ttl
     edintserpub:typeProcedure edintkosproctype:autorizacionLicencia ;

@@ -213,7 +213,7 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/AdministrativeProcedureType"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/AdministrativeProcedureType"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -237,7 +237,7 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServices"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/PublicServices"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -477,9 +477,9 @@ This definition is consistent with the more detailed definition of a &quot;publi
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/AdministrativeProcedureType -->
+    <!-- https://edint.es/kos/AdministrativeProcedureType -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/AdministrativeProcedureType">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/AdministrativeProcedureType">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:comment xml:lang="en">Classification scheme of types of administrative procedures.</rdfs:comment>
         <rdfs:comment xml:lang="es">Esquema de clasificación de tipos de procedimientos administrativos.</rdfs:comment>
@@ -489,9 +489,9 @@ This definition is consistent with the more detailed definition of a &quot;publi
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServices -->
+    <!-- https://edint.es/kos/PublicServices -->
 
-    <owl:NamedIndividual rdf:about="http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServices">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/PublicServices">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:comment xml:lang="en">Classification scheme of types of public services.</rdfs:comment>
         <rdfs:comment xml:lang="es">Esquema de clasificación de tipos de servicios públicos.</rdfs:comment>

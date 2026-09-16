@@ -3,8 +3,8 @@
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@prefix edintkos: <http://vocab.linkeddata.es/datosabiertos/kos/edint/> .
-@prefix edintkossertype: <http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServicesType/> .
+@prefix edintkos: <https://edint.es/kos/> .
+@prefix edintkossertype: <https://edint.es/kos/PublicServiceType/> .
 
 #################################################################
 # Concept scheme
