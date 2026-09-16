@@ -3,8 +3,8 @@
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@prefix edintkos: <http://vocab.linkeddata.es/datosabiertos/kos/edint/> .
-@prefix edintkosproctype: <http://vocab.linkeddata.es/datosabiertos/kos/edint/AdministrativeProcedureType/> .
+@prefix edintkos: <https://edint.es/kos/> .
+@prefix edintkosproctype: <https://edint.es/kos/AdministrativeProcedureType/> .
 
 
 #################################################################

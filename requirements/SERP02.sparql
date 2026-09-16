@@ -8,7 +8,7 @@ WHERE {
   ?servicioPublico a serpub:PublicService ;
                    serpub:typePublicService ?tipoServicio .
 
-  ?tipoServicio skos:inScheme <http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServices> .
+  ?tipoServicio skos:inScheme <https://edint.es/kos/PublicServices> .
 
   OPTIONAL {
     ?tipoServicio skos:prefLabel ?etiquetaTipoServicio .
