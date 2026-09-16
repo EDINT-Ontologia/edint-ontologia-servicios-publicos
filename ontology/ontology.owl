@@ -32,7 +32,7 @@
         <owl:versionInfo>0.1.0</owl:versionInfo>
         <owl:priorVersion rdf:resource="https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/releases/tag/v0.1.0"/>
     <dcterms:publisher rdf:resource="https://www.femp.es/"/>
-    <dcterms:bibliographicCitation xml:lang="es">Ontología para la representación de servicios públicos. EDINT. Revision: v0.1.1.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation xml:lang="es">Ontología EDINT de Servicios Públicos. EDINT. Revision: v0.1.1.</dcterms:bibliographicCitation>
     <schema:creativeWorkStatus xml:lang="en">Ontology Specification</schema:creativeWorkStatus>
     <dcterms:abstract xml:lang="es">La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados.</dcterms:abstract>
     <dcterms:abstract xml:lang="en">The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved.</dcterms:abstract>
