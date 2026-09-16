@@ -1,4 +1,4 @@
-# Ontología de Servicios Públicos
+# Ontología EDINT de Servicios Públicos
 
 La **Ontología de Servicios Públicos** representa el dominio de los servicios públicos municipales ofrecidos a la ciudadanía, incluyendo los procedimientos administrativos asociados, las organizaciones públicas responsables, los canales de prestación, los puntos de contacto, las reglas aplicables y la clasificación de los servicios mediante vocabularios controlados.
 
