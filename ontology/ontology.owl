@@ -9,7 +9,9 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann#"
      xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:edintserpub="https://edint.es/def/servicios-publicos#">
+     xmlns:edintserpub="https://edint.es/def/servicios-publicos#"
+     xmlns:schema="http://schema.org/"
+     xmlns:bibo="http://purl.org/ontology/bibo/">
     <owl:Ontology rdf:about="https://edint.es/def/servicios-publicos#">
         <owl:versionIRI rdf:resource=" https://edint.es/def/servicios-publicos#/0.1.0"/>
         <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-23</dcterms:created>
@@ -28,7 +30,13 @@
         <vann:preferredNamespacePrefix>edintserpub</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/servicios-publicos#"/>
         <owl:versionInfo>0.1.0</owl:versionInfo>
-    </owl:Ontology>
+        <owl:priorVersion rdf:resource="https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/releases/tag/v0.1.0"/>
+    <dcterms:publisher rdf:resource="https://www.femp.es/"/>
+    <dcterms:bibliographicCitation xml:lang="es">Ontología para la representación de servicios públicos. EDINT. Revision: v0.1.1.</dcterms:bibliographicCitation>
+    <schema:creativeWorkStatus xml:lang="en">Ontology Specification</schema:creativeWorkStatus>
+    <dcterms:abstract xml:lang="es">La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados.</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved.</dcterms:abstract>
+</owl:Ontology>
     
 
 
