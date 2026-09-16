@@ -12,7 +12,7 @@
      xmlns:edintserpub="https://edint.es/def/servicios-publicos#"
      xmlns:schema="http://schema.org/"
      xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:foaf="http://xmlns.com/foaf/0.1/">    <owl:Ontology rdf:about="https://edint.es/def/servicios-publicos#">
-        <owl:versionIRI rdf:resource=" https://edint.es/def/servicios-publicos#/0.1.0"/>
+        <owl:versionIRI rdf:resource="https://edint.es/def/servicios-publicos/0.1.1"/>
         <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-23</dcterms:created>
         <dcterms:creator rdf:parseType="Resource">
             <foaf:name>Daniel Doña</foaf:name>
@@ -46,7 +46,7 @@
         <dcterms:title xml:lang="en">EDINT Public Services Ontology</dcterms:title>
         <vann:preferredNamespacePrefix>edintserpub</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/servicios-publicos#"/>
-        <owl:versionInfo>0.1.0</owl:versionInfo>
+        <owl:versionInfo>0.1.1</owl:versionInfo>
         <owl:priorVersion rdf:resource="https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/releases/tag/v0.1.0"/>
     <dcterms:publisher rdf:resource="https://www.femp.es/"/>
     <dcterms:bibliographicCitation xml:lang="es">Ontología EDINT de Servicios Públicos. EDINT. Revision: v0.1.1.</dcterms:bibliographicCitation>
