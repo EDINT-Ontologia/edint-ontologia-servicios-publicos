@@ -1,5 +1,5 @@
-@prefix edintserpub:          <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> .
-@prefix esproc:               <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicio#> .
+@prefix edintserpub:          <https://edint.es/def/servicios-publicos#> .
+@prefix esproc:               <https://edint.es/def/servicios-publicos#> .
 
 @prefix edintkos:             <http://vocab.linkeddata.es/datosabiertos/kos/edint/> .
 @prefix edintkossertype:      <http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServicesType/> .

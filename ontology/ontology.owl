@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://edint.es/def/servicios-publicos#"
-     xml:base="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos"
+     xml:base=" https://edint.es/def/servicios-publicos#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -11,7 +11,7 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:edintserpub="https://edint.es/def/servicios-publicos#">
     <owl:Ontology rdf:about="https://edint.es/def/servicios-publicos#">
-        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos/0.1.0"/>
+        <owl:versionIRI rdf:resource=" https://edint.es/def/servicios-publicos#/0.1.0"/>
         <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-23</dcterms:created>
         <dcterms:creator>Daniel Doña</dcterms:creator>
         <dcterms:creator>Diego Conde</dcterms:creator>
@@ -387,12 +387,12 @@ This definition is consistent with the more detailed definition of a &quot;publi
     
 
 
-    <!-- http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicio#DestinadoProcedimiento -->
+    <!-- https://edint.es/def/servicios-publicos#DestinadoProcedimiento -->
 
-    <owl:Class rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicio#DestinadoProcedimiento">
+    <owl:Class rdf:about="https://edint.es/def/servicios-publicos#DestinadoProcedimiento">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <rdfs:comment xml:lang="en">This class represent the target entity of a Public Service.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicio"/>
+        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/servicios-publicos#"/>
         <rdfs:label xml:lang="es">Destinado Procedimiento</rdfs:label>
     </owl:Class>
     
