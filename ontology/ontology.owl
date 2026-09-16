@@ -392,7 +392,7 @@ This definition is consistent with the more detailed definition of a &quot;publi
     <owl:Class rdf:about="https://edint.es/def/servicios-publicos#DestinadoProcedimiento">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <rdfs:comment xml:lang="en">This class represent the target entity of a Public Service.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicio"/>
+        <rdfs:isDefinedBy rdf:resource="https://edint.es/def/servicios-publicos#"/>
         <rdfs:label xml:lang="es">Destinado Procedimiento</rdfs:label>
     </owl:Class>
     
