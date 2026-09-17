@@ -1,5 +1,9 @@
 # Ontología de Servicios Públicos
 
+[![Documentación](https://img.shields.io/badge/documentaci%C3%B3n-edint.es-blue)](https://edint.es/def/servicios-publicos)
+![Prefijo](https://img.shields.io/badge/prefijo-edintserpub-informational)
+[![Licencia](https://img.shields.io/badge/licencia-CC%20BY--SA%204.0-lightgrey)](LICENSE)
+
 La **Ontología de Servicios Públicos** representa el dominio de los servicios públicos municipales ofrecidos a la ciudadanía, incluyendo los procedimientos administrativos asociados, las organizaciones públicas responsables, los canales de prestación, los puntos de contacto, las reglas aplicables y la clasificación de los servicios mediante vocabularios controlados.
 
 La ontología reutiliza como referencia el patrón de modelado propuesto por el **Core Public Service Vocabulary Application Profile (CPSV-AP)** , especialmente para representar conceptos centrales como `PublicService`, `Rule`, `Channel`, `ContactPoint` y `PublicOrganisation`, así como relaciones como `follows`, `hasChannel` o `isClassifiedBy`. Sobre esta base, la ontología especializa y adapta el modelo al contexto de los servicios públicos municipales, incorporando elementos propios como los procedimientos administrativos asociados, el estado del procedimiento, el periodo de resolución y esquemas de clasificación específicos para tipos de servicios y procedimientos.
