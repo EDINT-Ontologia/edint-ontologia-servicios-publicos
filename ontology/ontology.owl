@@ -538,7 +538,28 @@ This definition is consistent with the more detailed definition of a &quot;publi
         <widoco:turtleSerialization>ontology.ttl</widoco:turtleSerialization>
         <widoco:ntSerialization>ontology.nt</widoco:ntSerialization>
         <widoco:jsonldSerialization>ontology.jsonld</widoco:jsonldSerialization>
-    </owl:Ontology>
+            <widoco:vocabularyLabel>
+            <rdf:Description>
+                <widoco:vocabularyIRI rdf:resource="http://data.europa.eu/m8g"/>
+                <rdfs:label xml:lang="es">CPSV-AP (Core Public Service Vocabulary)</rdfs:label>
+                <rdfs:label xml:lang="en">CPSV-AP (Core Public Service Vocabulary)</rdfs:label>
+            </rdf:Description>
+        </widoco:vocabularyLabel>
+        <widoco:vocabularyLabel>
+            <rdf:Description>
+                <widoco:vocabularyIRI rdf:resource="http://purl.org/vocab/cpsv"/>
+                <rdfs:label xml:lang="es">CPSV</rdfs:label>
+                <rdfs:label xml:lang="en">CPSV</rdfs:label>
+            </rdf:Description>
+        </widoco:vocabularyLabel>
+        <widoco:vocabularyLabel>
+            <rdf:Description>
+                <widoco:vocabularyIRI rdf:resource="http://www.w3.org/ns/org"/>
+                <rdfs:label xml:lang="es">ORG</rdfs:label>
+                <rdfs:label xml:lang="en">ORG</rdfs:label>
+            </rdf:Description>
+        </widoco:vocabularyLabel>
+</owl:Ontology>
 </rdf:RDF>
 
 
