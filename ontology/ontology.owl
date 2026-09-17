@@ -48,7 +48,11 @@
         <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/servicios-publicos#"/>
         <owl:versionInfo>0.1.1</owl:versionInfo>
         <owl:priorVersion rdf:resource="https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/releases/tag/v0.1.0"/>
-    <dcterms:publisher rdf:resource="https://www.femp.es/"/>
+    <dcterms:publisher rdf:parseType="Resource">
+        <foaf:name>FEMP</foaf:name>
+        <foaf:homepage rdf:resource="https://www.femp.es/"/>
+        <schema:affiliation>Federación Española de Municipios y Provincias</schema:affiliation>
+    </dcterms:publisher>
     <dcterms:bibliographicCitation xml:lang="es">Ontología EDINT de Servicios Públicos. EDINT. Revision: v0.1.1.</dcterms:bibliographicCitation>
     <schema:creativeWorkStatus xml:lang="en">Ontology Specification</schema:creativeWorkStatus>
     <dcterms:abstract xml:lang="es">La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados.</dcterms:abstract>
