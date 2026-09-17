@@ -30,7 +30,7 @@ El repositorio debe contener (al menos) las siguientes carpetas
 | **kos/**           | Contiene la implementación de vocabularios controlados o KOS, generalmente implementaciones SKOS en RDF.                                                                      |
 | **ontology/**      | Contiene los archivos de implementación de la ontología en formatos como .owl, .rdf, .ttl o .jsonld                                                                          |
 | **requirements/**  | Contiene todos los documentos utilizados para definir los requisitos de la ontología: ejemplos de datos, preguntas de competencia, requisitos funcionales, casos de uso, etc. |
-| **shapes/**        | Contiene las restricciones SHACL utilizad para validar datos respecto a la ontología.                                                                                         |
+| **shapes/**        | Contiene las restricciones SHACL utilizadas para validar datos respecto a la ontología.                                                                                         |
 
 # Mantenimiento y evolución (Maintenance and evolution)
 
