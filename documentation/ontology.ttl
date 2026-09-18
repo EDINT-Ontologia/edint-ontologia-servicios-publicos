@@ -29,13 +29,13 @@
                                                                              "Ontología EDINT de Servicios Públicos"@es ;
                                             <http://purl.org/vocab/vann/preferredNamespacePrefix> "edintserpub" ;
                                             <http://purl.org/vocab/vann/preferredNamespaceUri> <https://edint.es/def/servicios-publicos#> ;
-                                            <http://schema.org/codeRepository> <https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos> ;
-                                            <http://schema.org/creativeWorkStatus> "Ontology Specification"@en ;
-                                            <http://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" ;
                                             rdfs:label "Public Services"@en ,
                                                        "Servicios Públicos"@es ;
                                             owl:priorVersion <https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/releases/tag/v0.1.0> ;
                                             owl:versionInfo "0.1.1" ;
+                                            <https://schema.org/codeRepository> <https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos> ;
+                                            <https://schema.org/creativeWorkStatus> "Ontology Specification"@en ;
+                                            <https://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" ;
                                             <https://w3id.org/widoco/vocab#jsonldSerialization> "ontology.jsonld" ;
                                             <https://w3id.org/widoco/vocab#ntSerialization> "ontology.nt" ;
                                             <https://w3id.org/widoco/vocab#rdfxmlSerialization> "ontology.rdf" ;
@@ -44,27 +44,27 @@
                                                                                             _:genid9 ,
                                                                                             _:genid10 .
 
-_:genid1 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> ;
-          <http://xmlns.com/foaf/0.1/name> "Diego Conde" .
+_:genid1 <http://xmlns.com/foaf/0.1/name> "Diego Conde" ;
+          <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 
-_:genid2 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> ;
-          <http://xmlns.com/foaf/0.1/name> "Daniel Doña" .
+_:genid2 <http://xmlns.com/foaf/0.1/name> "Daniel Doña" ;
+          <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 
-_:genid3 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> ;
-          <http://xmlns.com/foaf/0.1/name> "Edna Ruckhaus" .
+_:genid3 <http://xmlns.com/foaf/0.1/name> "Edna Ruckhaus" ;
+          <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 
-_:genid4 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> ;
-          <http://xmlns.com/foaf/0.1/name> "Lucía Sánchez" .
+_:genid4 <http://xmlns.com/foaf/0.1/name> "Lucía Sánchez" ;
+          <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 
-_:genid5 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> ;
-          <http://xmlns.com/foaf/0.1/name> "Oscar Corcho" .
+_:genid5 <http://xmlns.com/foaf/0.1/name> "Oscar Corcho" ;
+          <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 
-_:genid6 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> ;
-          <http://xmlns.com/foaf/0.1/name> "Socorro Bernardos" .
+_:genid6 <http://xmlns.com/foaf/0.1/name> "Socorro Bernardos" ;
+          <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 
-_:genid7 <http://schema.org/affiliation> "Federación Española de Municipios y Provincias" ;
-          <http://xmlns.com/foaf/0.1/homepage> <https://www.femp.es/> ;
-          <http://xmlns.com/foaf/0.1/name> "FEMP" .
+_:genid7 <http://xmlns.com/foaf/0.1/homepage> <https://www.femp.es/> ;
+          <http://xmlns.com/foaf/0.1/name> "FEMP" ;
+          <https://schema.org/affiliation> "Federación Española de Municipios y Provincias" .
 
 _:genid8 rdfs:label "ORG"@en ,
                      "ORG"@es ;
@@ -138,22 +138,6 @@ _:genid10 rdfs:label "CPSV-AP (Core Public Service Vocabulary)"@en ,
 <http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
 
 
-###  http://schema.org/affiliation
-<http://schema.org/affiliation> rdf:type owl:AnnotationProperty .
-
-
-###  http://schema.org/codeRepository
-<http://schema.org/codeRepository> rdf:type owl:AnnotationProperty .
-
-
-###  http://schema.org/creativeWorkStatus
-<http://schema.org/creativeWorkStatus> rdf:type owl:AnnotationProperty .
-
-
-###  http://schema.org/funding
-<http://schema.org/funding> rdf:type owl:AnnotationProperty .
-
-
 ###  http://www.w3.org/2004/02/skos/core#scopeNote
 <http://www.w3.org/2004/02/skos/core#scopeNote> rdf:type owl:AnnotationProperty .
 
@@ -164,6 +148,22 @@ _:genid10 rdfs:label "CPSV-AP (Core Public Service Vocabulary)"@en ,
 
 ###  http://xmlns.com/foaf/0.1/name
 <http://xmlns.com/foaf/0.1/name> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/affiliation
+<https://schema.org/affiliation> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/codeRepository
+<https://schema.org/codeRepository> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/creativeWorkStatus
+<https://schema.org/creativeWorkStatus> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/funding
+<https://schema.org/funding> rdf:type owl:AnnotationProperty .
 
 
 ###  https://w3id.org/widoco/vocab#jsonldSerialization

@@ -6,43 +6,43 @@
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/bibliographicCitation> "Ontología EDINT de Servicios Públicos. EDINT. Revisión: v0.1.1."@es .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/created> "2026-03-23"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid1 .
+_:genid1 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid1 <http://xmlns.com/foaf/0.1/name> "Diego Conde" .
-_:genid1 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid2 .
+_:genid2 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid2 <http://xmlns.com/foaf/0.1/name> "Daniel Doña" .
-_:genid2 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid3 .
+_:genid3 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid3 <http://xmlns.com/foaf/0.1/name> "Edna Ruckhaus" .
-_:genid3 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid4 .
+_:genid4 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid4 <http://xmlns.com/foaf/0.1/name> "Lucía Sánchez" .
-_:genid4 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid5 .
+_:genid5 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid5 <http://xmlns.com/foaf/0.1/name> "Oscar Corcho" .
-_:genid5 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid6 .
+_:genid6 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid6 <http://xmlns.com/foaf/0.1/name> "Socorro Bernardos" .
-_:genid6 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/description> "La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados."@es .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/description> "The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved."@en .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/issued> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/modified> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/publisher> _:genid7 .
+_:genid7 <https://schema.org/affiliation> "Federación Española de Municipios y Provincias" .
 _:genid7 <http://xmlns.com/foaf/0.1/name> "FEMP" .
 _:genid7 <http://xmlns.com/foaf/0.1/homepage> <https://www.femp.es/> .
-_:genid7 <http://schema.org/affiliation> "Federación Española de Municipios y Provincias" .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/title> "EDINT Public Services Ontology"@en .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/title> "Ontología EDINT de Servicios Públicos"@es .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "edintserpub" .
 <https://edint.es/def/servicios-publicos#> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://edint.es/def/servicios-publicos#> .
-<https://edint.es/def/servicios-publicos#> <http://schema.org/codeRepository> <https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos> .
-<https://edint.es/def/servicios-publicos#> <http://schema.org/creativeWorkStatus> "Ontology Specification"@en .
-<https://edint.es/def/servicios-publicos#> <http://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" .
 <https://edint.es/def/servicios-publicos#> <http://www.w3.org/2000/01/rdf-schema#label> "Public Services"@en .
 <https://edint.es/def/servicios-publicos#> <http://www.w3.org/2000/01/rdf-schema#label> "Servicios Públicos"@es .
 <https://edint.es/def/servicios-publicos#> <http://www.w3.org/2002/07/owl#priorVersion> <https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/releases/tag/v0.1.0> .
 <https://edint.es/def/servicios-publicos#> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.1" .
+<https://edint.es/def/servicios-publicos#> <https://schema.org/codeRepository> <https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos> .
+<https://edint.es/def/servicios-publicos#> <https://schema.org/creativeWorkStatus> "Ontology Specification"@en .
+<https://edint.es/def/servicios-publicos#> <https://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" .
 <https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#jsonldSerialization> "ontology.jsonld" .
 <https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#ntSerialization> "ontology.nt" .
 <https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#rdfxmlSerialization> "ontology.rdf" .
@@ -110,18 +110,6 @@ _:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "CPSV-AP (Core Public Ser
 # http://purl.org/vocab/vann/preferredNamespaceUri
 <http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://schema.org/affiliation
-<http://schema.org/affiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://schema.org/codeRepository
-<http://schema.org/codeRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://schema.org/creativeWorkStatus
-<http://schema.org/creativeWorkStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://schema.org/funding
-<http://schema.org/funding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
 # http://www.w3.org/2004/02/skos/core#scopeNote
 <http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
@@ -130,6 +118,18 @@ _:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "CPSV-AP (Core Public Ser
 # 
 # http://xmlns.com/foaf/0.1/name
 <http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/affiliation
+<https://schema.org/affiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/codeRepository
+<https://schema.org/codeRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/creativeWorkStatus
+<https://schema.org/creativeWorkStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/funding
+<https://schema.org/funding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # https://w3id.org/widoco/vocab#jsonldSerialization
 <https://w3id.org/widoco/vocab#jsonldSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .

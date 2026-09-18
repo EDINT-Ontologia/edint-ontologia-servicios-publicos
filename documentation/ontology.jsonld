@@ -1,10 +1,10 @@
 [ {
   "@id" : "_:genid1",
-  "http://schema.org/affiliation" : [ {
-    "@id" : "https://oeg.fi.upm.es/"
-  } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Diego Conde"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
   } ]
 }, {
   "@id" : "_:genid10",
@@ -58,54 +58,54 @@
   } ]
 }, {
   "@id" : "_:genid2",
-  "http://schema.org/affiliation" : [ {
-    "@id" : "https://oeg.fi.upm.es/"
-  } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Daniel Doña"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
   } ]
 }, {
   "@id" : "_:genid3",
-  "http://schema.org/affiliation" : [ {
-    "@id" : "https://oeg.fi.upm.es/"
-  } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Edna Ruckhaus"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
   } ]
 }, {
   "@id" : "_:genid4",
-  "http://schema.org/affiliation" : [ {
-    "@id" : "https://oeg.fi.upm.es/"
-  } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Lucía Sánchez"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
   } ]
 }, {
   "@id" : "_:genid5",
-  "http://schema.org/affiliation" : [ {
-    "@id" : "https://oeg.fi.upm.es/"
-  } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Oscar Corcho"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
   } ]
 }, {
   "@id" : "_:genid6",
-  "http://schema.org/affiliation" : [ {
-    "@id" : "https://oeg.fi.upm.es/"
-  } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Socorro Bernardos"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@id" : "https://oeg.fi.upm.es/"
   } ]
 }, {
   "@id" : "_:genid7",
-  "http://schema.org/affiliation" : [ {
-    "@value" : "Federación Española de Municipios y Provincias"
-  } ],
   "http://xmlns.com/foaf/0.1/homepage" : [ {
     "@id" : "https://www.femp.es/"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "FEMP"
+  } ],
+  "https://schema.org/affiliation" : [ {
+    "@value" : "Federación Española de Municipios y Provincias"
   } ]
 }, {
   "@id" : "_:genid8",
@@ -348,18 +348,6 @@
   "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://schema.org/affiliation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://schema.org/codeRepository",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://schema.org/creativeWorkStatus",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
-  "@id" : "http://schema.org/funding",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
-}, {
   "@id" : "http://www.w3.org/2001/XMLSchema#date",
   "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
 }, {
@@ -482,16 +470,6 @@
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
     "@id" : "https://edint.es/def/servicios-publicos#"
   } ],
-  "http://schema.org/codeRepository" : [ {
-    "@id" : "https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos"
-  } ],
-  "http://schema.org/creativeWorkStatus" : [ {
-    "@language" : "en",
-    "@value" : "Ontology Specification"
-  } ],
-  "http://schema.org/funding" : [ {
-    "@value" : "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Public Services"
@@ -507,6 +485,16 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "0.1.1"
+  } ],
+  "https://schema.org/codeRepository" : [ {
+    "@id" : "https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos"
+  } ],
+  "https://schema.org/creativeWorkStatus" : [ {
+    "@language" : "en",
+    "@value" : "Ontology Specification"
+  } ],
+  "https://schema.org/funding" : [ {
+    "@value" : "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)"
   } ],
   "https://w3id.org/widoco/vocab#jsonldSerialization" : [ {
     "@value" : "ontology.jsonld"
@@ -790,6 +778,18 @@
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "Ontology Engineering Group, UPM"
   } ]
+}, {
+  "@id" : "https://schema.org/affiliation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/codeRepository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/creativeWorkStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/funding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "https://semiceu.github.io/CPSV-AP/releases/3.2.0/hasContactPoint",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
