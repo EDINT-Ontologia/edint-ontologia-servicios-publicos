@@ -1,34 +1,73 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://edint.es/def/servicios-publicos#"
-     xml:base=" https://edint.es/def/servicios-publicos#"
+     xml:base="https://edint.es/def/servicios-publicos#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:vann="http://purl.org/vocab/vann#"
+     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:edintserpub="https://edint.es/def/servicios-publicos#">
-    <owl:Ontology rdf:about="https://edint.es/def/servicios-publicos#">
-        <owl:versionIRI rdf:resource=" https://edint.es/def/servicios-publicos#/0.1.0"/>
-        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-23</dcterms:created>
-        <dcterms:creator>Daniel Doña</dcterms:creator>
-        <dcterms:creator>Diego Conde</dcterms:creator>
-        <dcterms:creator>Edna Ruckhaus</dcterms:creator>
-        <dcterms:creator>Lucía Sánchez</dcterms:creator>
-        <dcterms:creator>Oscar Corcho</dcterms:creator>
-        <dcterms:creator>Socorro Bernardos</dcterms:creator>
+     xmlns:edintserpub="https://edint.es/def/servicios-publicos#"
+     xmlns:schema="https://schema.org/"
+     xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:widoco="https://w3id.org/widoco/vocab#">    <owl:Ontology rdf:about="https://edint.es/def/servicios-publicos#">
+        <owl:versionIRI rdf:resource="https://edint.es/def/servicios-publicos/0.1.1"/>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Daniel Doña</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Diego Conde</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Edna Ruckhaus</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Lucía Sánchez</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Oscar Corcho</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
+        <dcterms:creator rdf:parseType="Resource">
+            <foaf:name>Socorro Bernardos</foaf:name>
+            <schema:affiliation rdf:resource="https://oeg.fi.upm.es/"/>
+        </dcterms:creator>
         <dcterms:description xml:lang="es">La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados.</dcterms:description>
         <dcterms:description xml:lang="en">The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved.</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-23</dcterms:issued>
-        <dcterms:title xml:lang="es">Ontología de Servicios Públicos</dcterms:title>
-        <dcterms:title xml:lang="en">The Public Services Ontology</dcterms:title>
+        <dcterms:title xml:lang="es">Ontología EDINT de Servicios Públicos</dcterms:title>
+        <dcterms:title xml:lang="en">EDINT Public Services Ontology</dcterms:title>
+        <rdfs:label xml:lang="es">Servicios Públicos</rdfs:label>
+        <rdfs:label xml:lang="en">Public Services</rdfs:label>
         <vann:preferredNamespacePrefix>edintserpub</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/servicios-publicos#"/>
-        <owl:versionInfo>0.1.0</owl:versionInfo>
-    </owl:Ontology>
+        <owl:versionInfo>0.1.1</owl:versionInfo>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-23</dcterms:created>
+        <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-17</dcterms:issued>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-09-17</dcterms:modified>
+        <owl:priorVersion rdf:resource="https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/releases/tag/v0.1.0"/>
+        <schema:codeRepository rdf:resource="https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos"/>
+        <schema:funding>Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)</schema:funding>
+    <dcterms:publisher rdf:parseType="Resource">
+        <foaf:name>FEMP</foaf:name>
+        <foaf:homepage rdf:resource="https://www.femp.es/"/>
+        <schema:affiliation>Federación Española de Municipios y Provincias</schema:affiliation>
+    </dcterms:publisher>
+    <dcterms:bibliographicCitation xml:lang="es">Ontología EDINT de Servicios Públicos. EDINT. Revisión: v0.1.1.</dcterms:bibliographicCitation>
+    <dcterms:bibliographicCitation xml:lang="en">EDINT Public Services Ontology. EDINT. Revision: v0.1.1.</dcterms:bibliographicCitation>
+    <schema:creativeWorkStatus xml:lang="en">Ontology Specification</schema:creativeWorkStatus>
+    <dcterms:abstract xml:lang="es">La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados.</dcterms:abstract>
+    <dcterms:abstract xml:lang="en">The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved.</dcterms:abstract>
+</owl:Ontology>
+    <foaf:Organization rdf:about="https://oeg.fi.upm.es/">
+        <foaf:name>Ontology Engineering Group, UPM</foaf:name>
+    </foaf:Organization>
     
 
 
@@ -498,6 +537,34 @@ This definition is consistent with the more detailed definition of a &quot;publi
         <rdfs:label xml:lang="en">Public Services Types</rdfs:label>
         <rdfs:label xml:lang="es">Tipos de Servicios Públicos</rdfs:label>
     </owl:NamedIndividual>
+    <!-- Nombres de fichero de las serializaciones generadas (vocabulario Widoco) -->
+    <owl:Ontology rdf:about="https://edint.es/def/servicios-publicos#">
+        <widoco:rdfxmlSerialization>ontology.rdf</widoco:rdfxmlSerialization>
+        <widoco:turtleSerialization>ontology.ttl</widoco:turtleSerialization>
+        <widoco:ntSerialization>ontology.nt</widoco:ntSerialization>
+        <widoco:jsonldSerialization>ontology.jsonld</widoco:jsonldSerialization>
+            <widoco:vocabularyLabel>
+            <rdf:Description>
+                <widoco:vocabularyIRI rdf:resource="http://data.europa.eu/m8g"/>
+                <rdfs:label xml:lang="es">CPSV-AP (Core Public Service Vocabulary)</rdfs:label>
+                <rdfs:label xml:lang="en">CPSV-AP (Core Public Service Vocabulary)</rdfs:label>
+            </rdf:Description>
+        </widoco:vocabularyLabel>
+        <widoco:vocabularyLabel>
+            <rdf:Description>
+                <widoco:vocabularyIRI rdf:resource="http://purl.org/vocab/cpsv"/>
+                <rdfs:label xml:lang="es">CPSV</rdfs:label>
+                <rdfs:label xml:lang="en">CPSV</rdfs:label>
+            </rdf:Description>
+        </widoco:vocabularyLabel>
+        <widoco:vocabularyLabel>
+            <rdf:Description>
+                <widoco:vocabularyIRI rdf:resource="http://www.w3.org/ns/org"/>
+                <rdfs:label xml:lang="es">ORG</rdfs:label>
+                <rdfs:label xml:lang="en">ORG</rdfs:label>
+            </rdf:Description>
+        </widoco:vocabularyLabel>
+</owl:Ontology>
 </rdf:RDF>
 
 
