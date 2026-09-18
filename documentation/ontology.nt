@@ -1,20 +1,64 @@
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos/0.1.0> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://purl.org/dc/terms/created> "2026-03-23"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://purl.org/dc/terms/creator> "Daniel Doña" .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://purl.org/dc/terms/creator> "Diego Conde" .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://purl.org/dc/terms/creator> "Edna Ruckhaus" .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://purl.org/dc/terms/creator> "Lucía Sánchez" .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://purl.org/dc/terms/creator> "Oscar Corcho" .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://purl.org/dc/terms/creator> "Socorro Bernardos" .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://purl.org/dc/terms/description> "La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://purl.org/dc/terms/description> "The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://purl.org/dc/terms/title> "Ontología de Servicios Públicos"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://purl.org/dc/terms/title> "The Public Services Ontology"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://purl.org/vocab/vann#preferredNamespacePrefix> "edintserpub" .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://purl.org/vocab/vann#preferredNamespaceUri> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://edint.es/def/servicios-publicos#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://edint.es/def/servicios-publicos#> <http://www.w3.org/2002/07/owl#versionIRI> <https://edint.es/def/servicios-publicos/0.1.1> .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/abstract> "La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados."@es .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/abstract> "The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved."@en .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/bibliographicCitation> "EDINT Public Services Ontology. EDINT. Revision: v0.1.1."@en .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/bibliographicCitation> "Ontología EDINT de Servicios Públicos. EDINT. Revisión: v0.1.1."@es .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/created> "2026-03-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid1 .
+_:genid1 <http://xmlns.com/foaf/0.1/name> "Diego Conde" .
+_:genid1 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid2 .
+_:genid2 <http://xmlns.com/foaf/0.1/name> "Daniel Doña" .
+_:genid2 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid3 .
+_:genid3 <http://xmlns.com/foaf/0.1/name> "Edna Ruckhaus" .
+_:genid3 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid4 .
+_:genid4 <http://xmlns.com/foaf/0.1/name> "Lucía Sánchez" .
+_:genid4 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid5 .
+_:genid5 <http://xmlns.com/foaf/0.1/name> "Oscar Corcho" .
+_:genid5 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid6 .
+_:genid6 <http://xmlns.com/foaf/0.1/name> "Socorro Bernardos" .
+_:genid6 <http://schema.org/affiliation> <https://oeg.fi.upm.es/> .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/description> "La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados."@es .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/description> "The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved."@en .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/issued> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/modified> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/publisher> _:genid7 .
+_:genid7 <http://xmlns.com/foaf/0.1/name> "FEMP" .
+_:genid7 <http://xmlns.com/foaf/0.1/homepage> <https://www.femp.es/> .
+_:genid7 <http://schema.org/affiliation> "Federación Española de Municipios y Provincias" .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/title> "EDINT Public Services Ontology"@en .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/title> "Ontología EDINT de Servicios Públicos"@es .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "edintserpub" .
+<https://edint.es/def/servicios-publicos#> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://edint.es/def/servicios-publicos#> .
+<https://edint.es/def/servicios-publicos#> <http://schema.org/codeRepository> <https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos> .
+<https://edint.es/def/servicios-publicos#> <http://schema.org/creativeWorkStatus> "Ontology Specification"@en .
+<https://edint.es/def/servicios-publicos#> <http://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" .
+<https://edint.es/def/servicios-publicos#> <http://www.w3.org/2000/01/rdf-schema#label> "Public Services"@en .
+<https://edint.es/def/servicios-publicos#> <http://www.w3.org/2000/01/rdf-schema#label> "Servicios Públicos"@es .
+<https://edint.es/def/servicios-publicos#> <http://www.w3.org/2002/07/owl#priorVersion> <https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/releases/tag/v0.1.0> .
+<https://edint.es/def/servicios-publicos#> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.1" .
+<https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#jsonldSerialization> "ontology.jsonld" .
+<https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#ntSerialization> "ontology.nt" .
+<https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#rdfxmlSerialization> "ontology.rdf" .
+<https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#turtleSerialization> "ontology.ttl" .
+<https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid8 .
+_:genid8 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.w3.org/ns/org> .
+_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "ORG"@es .
+_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "ORG"@en .
+<https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid9 .
+_:genid9 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://purl.org/vocab/cpsv> .
+_:genid9 <http://www.w3.org/2000/01/rdf-schema#label> "CPSV"@es .
+_:genid9 <http://www.w3.org/2000/01/rdf-schema#label> "CPSV"@en .
+<https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid10 .
+_:genid10 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://data.europa.eu/m8g> .
+_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "CPSV-AP (Core Public Service Vocabulary)"@es .
+_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "CPSV-AP (Core Public Service Vocabulary)"@en .
 # 
 # 
 # #################################################################
@@ -23,6 +67,12 @@
 # #
 # #################################################################
 # 
+# 
+# http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/created
 <http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -33,8 +83,17 @@
 # http://purl.org/dc/terms/description
 <http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -45,8 +104,50 @@
 # http://purl.org/vocab/vann#preferredNamespaceUri
 <http://purl.org/vocab/vann#preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/affiliation
+<http://schema.org/affiliation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/codeRepository
+<http://schema.org/codeRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/creativeWorkStatus
+<http://schema.org/creativeWorkStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/funding
+<http://schema.org/funding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://www.w3.org/2004/02/skos/core#scopeNote
 <http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/homepage
+<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#jsonldSerialization
+<https://w3id.org/widoco/vocab#jsonldSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#ntSerialization
+<https://w3id.org/widoco/vocab#ntSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#rdfxmlSerialization
+<https://w3id.org/widoco/vocab#rdfxmlSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#turtleSerialization
+<https://w3id.org/widoco/vocab#turtleSerialization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#vocabularyIRI
+<https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/widoco/vocab#vocabularyLabel
+<https://w3id.org/widoco/vocab#vocabularyLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 
@@ -98,74 +199,72 @@
 <http://purl.org/vocab/cpsv#follows> <http://www.w3.org/2000/01/rdf-schema#label> "follows"@en .
 <http://purl.org/vocab/cpsv#follows> <http://www.w3.org/2004/02/skos/core#scopeNote> "The definition of the Rule class is very broad. In a typical case, the competent authority that provides the public service will also define the rules that will implement its own policies. The CPSV-AP is flexible to allow for significant variation in such a scenario."@en .
 # 
-# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#hasAdministrativeProcedure
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#hasAdministrativeProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#hasAdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#hasAdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#hasAdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona un servicio público con el procedimiento administrativo mediante el cual se gestiona, tramita o resuelve."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#hasAdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a public service to the administrative procedure through which it is managed, processed, or resolved."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#hasAdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "has Administrative Procedure"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#hasAdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "tiene Procedimiento Administrativo"@es .
-# 
-# http://www.semanticweb.org/owl/owlapi/turtle#hasCompetentAuthority
-<http://www.semanticweb.org/owl/owlapi/turtle#hasCompetentAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/owl/owlapi/turtle#hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#comment> "It links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service."@en .
-<http://www.semanticweb.org/owl/owlapi/turtle#hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://www.semanticweb.org/owl/owlapi/turtle#hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#label> "has Competent Authority"@en .
-<http://www.semanticweb.org/owl/owlapi/turtle#hasCompetentAuthority> <http://www.w3.org/2004/02/skos/core#scopeNote> "Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \\\"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organisations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\\\""@en .
-# 
-# http://www.semanticweb.org/owl/owlapi/turtle#hasContactPoint
-<http://www.semanticweb.org/owl/owlapi/turtle#hasContactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/owl/owlapi/turtle#hasContactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "The main contact information of the resource."@en .
-<http://www.semanticweb.org/owl/owlapi/turtle#hasContactPoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
-<http://www.semanticweb.org/owl/owlapi/turtle#hasContactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "contact Point"@en .
-<http://www.semanticweb.org/owl/owlapi/turtle#hasContactPoint> <http://www.w3.org/2004/02/skos/core#scopeNote> "Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant."@en .
-# 
-# http://www.semanticweb.org/owl/owlapi/turtle#typeProcedure
-<http://www.semanticweb.org/owl/owlapi/turtle#typeProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/owl/owlapi/turtle#typeProcedure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure> .
-<http://www.semanticweb.org/owl/owlapi/turtle#typeProcedure> <http://www.w3.org/2000/01/rdf-schema#range> _:genid1 .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid4 .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
-_:genid3 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/edint/AdministrativeProcedureType> .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://www.semanticweb.org/owl/owlapi/turtle#typeProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona un procedimiento administrativo con el tipo o categoría que lo clasifica según sus características de tramitación."@es .
-<http://www.semanticweb.org/owl/owlapi/turtle#typeProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an administrative procedure to the type or category that classifies it according to its processing characteristics."@en .
-<http://www.semanticweb.org/owl/owlapi/turtle#typeProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de Procedimiento Administrativo"@es .
-<http://www.semanticweb.org/owl/owlapi/turtle#typeProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "Type of Administrative Procedure"@en .
-# 
-# http://www.semanticweb.org/owl/owlapi/turtle#typePublicService
-<http://www.semanticweb.org/owl/owlapi/turtle#typePublicService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/owl/owlapi/turtle#typePublicService> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://data.europa.eu/m8g/isClassifiedBy> .
-<http://www.semanticweb.org/owl/owlapi/turtle#typePublicService> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService> .
-<http://www.semanticweb.org/owl/owlapi/turtle#typePublicService> <http://www.w3.org/2000/01/rdf-schema#range> _:genid5 .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid5 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid8 .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
-_:genid7 <http://www.w3.org/2002/07/owl#hasValue> <http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServices> .
-_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-<http://www.semanticweb.org/owl/owlapi/turtle#typePublicService> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona un servicio público con el concepto que representa su tipo o categoría dentro de un esquema de clasificación de servicios públicos."@es .
-<http://www.semanticweb.org/owl/owlapi/turtle#typePublicService> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a public service to the concept that represents its type or category within a public service classification scheme."@en .
-<http://www.semanticweb.org/owl/owlapi/turtle#typePublicService> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de Servicio Público"@es .
-<http://www.semanticweb.org/owl/owlapi/turtle#typePublicService> <http://www.w3.org/2000/01/rdf-schema#label> "Type of Public Service"@en .
+# http://purl.org/vocab/cpsv#hasCompetentAuthority
+<http://purl.org/vocab/cpsv#hasCompetentAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/vocab/cpsv#hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#comment> "It links a Public Service to a Public Organization, which is the responsible Agent for the delivery of the Public Service."@en .
+<http://purl.org/vocab/cpsv#hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
+<http://purl.org/vocab/cpsv#hasCompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#label> "has Competent Authority"@en .
+<http://purl.org/vocab/cpsv#hasCompetentAuthority> <http://www.w3.org/2004/02/skos/core#scopeNote> "Whether the particular Public Organization provides the public service directly or outsources it is not relevant. The Public Organization that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service. The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way: \\\"Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organisations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof\\\""@en .
 # 
 # http://www.w3.org/2004/02/skos/core#inScheme
 <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://edint.es/def/servicios-publicos#hasAdministrativeProcedure
+<https://edint.es/def/servicios-publicos#hasAdministrativeProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/servicios-publicos#hasAdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#domain> <https://edint.es/def/servicios-publicos#PublicService> .
+<https://edint.es/def/servicios-publicos#hasAdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#range> <https://edint.es/def/servicios-publicos#AdministrativeProcedure> .
+<https://edint.es/def/servicios-publicos#hasAdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona un servicio público con el procedimiento administrativo mediante el cual se gestiona, tramita o resuelve."@es .
+<https://edint.es/def/servicios-publicos#hasAdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a public service to the administrative procedure through which it is managed, processed, or resolved."@en .
+<https://edint.es/def/servicios-publicos#hasAdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "has Administrative Procedure"@en .
+<https://edint.es/def/servicios-publicos#hasAdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "tiene Procedimiento Administrativo"@es .
+# 
+# https://edint.es/def/servicios-publicos#typeProcedure
+<https://edint.es/def/servicios-publicos#typeProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/servicios-publicos#typeProcedure> <http://www.w3.org/2000/01/rdf-schema#domain> <https://edint.es/def/servicios-publicos#AdministrativeProcedure> .
+<https://edint.es/def/servicios-publicos#typeProcedure> <http://www.w3.org/2000/01/rdf-schema#range> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid11 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#hasValue> <https://edint.es/kos/AdministrativeProcedureType> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://edint.es/def/servicios-publicos#typeProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona un procedimiento administrativo con el tipo o categoría que lo clasifica según sus características de tramitación."@es .
+<https://edint.es/def/servicios-publicos#typeProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an administrative procedure to the type or category that classifies it according to its processing characteristics."@en .
+<https://edint.es/def/servicios-publicos#typeProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de Procedimiento Administrativo"@es .
+<https://edint.es/def/servicios-publicos#typeProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "Type of Administrative Procedure"@en .
+# 
+# https://edint.es/def/servicios-publicos#typePublicService
+<https://edint.es/def/servicios-publicos#typePublicService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://edint.es/def/servicios-publicos#typePublicService> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://data.europa.eu/m8g/isClassifiedBy> .
+<https://edint.es/def/servicios-publicos#typePublicService> <http://www.w3.org/2000/01/rdf-schema#domain> <https://edint.es/def/servicios-publicos#PublicService> .
+<https://edint.es/def/servicios-publicos#typePublicService> <http://www.w3.org/2000/01/rdf-schema#range> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid15 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#hasValue> <https://edint.es/kos/PublicServices> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://edint.es/def/servicios-publicos#typePublicService> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaciona un servicio público con el concepto que representa su tipo o categoría dentro de un esquema de clasificación de servicios públicos."@es .
+<https://edint.es/def/servicios-publicos#typePublicService> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a public service to the concept that represents its type or category within a public service classification scheme."@en .
+<https://edint.es/def/servicios-publicos#typePublicService> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo de Servicio Público"@es .
+<https://edint.es/def/servicios-publicos#typePublicService> <http://www.w3.org/2000/01/rdf-schema#label> "Type of Public Service"@en .
+# 
+# https://semiceu.github.io/CPSV-AP/releases/3.2.0/hasContactPoint
+<https://semiceu.github.io/CPSV-AP/releases/3.2.0/hasContactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://semiceu.github.io/CPSV-AP/releases/3.2.0/hasContactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "The main contact information of the resource."@en .
+<https://semiceu.github.io/CPSV-AP/releases/3.2.0/hasContactPoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://data.europa.eu/m8g> .
+<https://semiceu.github.io/CPSV-AP/releases/3.2.0/hasContactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "contact Point"@en .
+<https://semiceu.github.io/CPSV-AP/releases/3.2.0/hasContactPoint> <http://www.w3.org/2004/02/skos/core#scopeNote> "Note that the contact information should be relevant to the Public Service which may not be the same as contact information for the Competent Authority or any Participant."@en .
 # 
 # 
 # 
@@ -176,41 +275,41 @@ _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # #################################################################
 # 
 # 
-# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#availability
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#availability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica la disponibilidad actual o declarada del servicio público."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the current or declared availability of the public service."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#label> "Availability"@en .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#label> "Disponibilidad"@es .
+# https://edint.es/def/servicios-publicos#availability
+<https://edint.es/def/servicios-publicos#availability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://edint.es/def/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#domain> <https://edint.es/def/servicios-publicos#PublicService> .
+<https://edint.es/def/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://edint.es/def/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica la disponibilidad actual o declarada del servicio público."@es .
+<https://edint.es/def/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the current or declared availability of the public service."@en .
+<https://edint.es/def/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#label> "Availability"@en .
+<https://edint.es/def/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#label> "Disponibilidad"@es .
 # 
-# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#identifier
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "A unique textual or numeric code assigned to a public service to enable its identification and management across systems or administrative processes."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Código textual o numérico único asignado a un servicio público para permitir su identificación y gestión en sistemas o procesos administrativos."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identificador"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier"@en .
+# https://edint.es/def/servicios-publicos#identifier
+<https://edint.es/def/servicios-publicos#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://edint.es/def/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <https://edint.es/def/servicios-publicos#PublicService> .
+<https://edint.es/def/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://edint.es/def/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "A unique textual or numeric code assigned to a public service to enable its identification and management across systems or administrative processes."@en .
+<https://edint.es/def/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Código textual o numérico único asignado a un servicio público para permitir su identificación y gestión en sistemas o procesos administrativos."@es .
+<https://edint.es/def/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identificador"@es .
+<https://edint.es/def/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier"@en .
 # 
-# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#resolutionPeriod
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#resolutionPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#resolutionPeriod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#resolutionPeriod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#duration> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#resolutionPeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "Periodo de tiempo esperado o establecido para resolver un procedimiento administrativo asociado a un servicio público."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#resolutionPeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "The expected or established period of time required to resolve an administrative procedure associated to a public service."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#resolutionPeriod> <http://www.w3.org/2000/01/rdf-schema#label> "Periodo de resolución"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#resolutionPeriod> <http://www.w3.org/2000/01/rdf-schema#label> "Resolution Period"@en .
+# https://edint.es/def/servicios-publicos#resolutionPeriod
+<https://edint.es/def/servicios-publicos#resolutionPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://edint.es/def/servicios-publicos#resolutionPeriod> <http://www.w3.org/2000/01/rdf-schema#domain> <https://edint.es/def/servicios-publicos#AdministrativeProcedure> .
+<https://edint.es/def/servicios-publicos#resolutionPeriod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#duration> .
+<https://edint.es/def/servicios-publicos#resolutionPeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "Periodo de tiempo esperado o establecido para resolver un procedimiento administrativo asociado a un servicio público."@es .
+<https://edint.es/def/servicios-publicos#resolutionPeriod> <http://www.w3.org/2000/01/rdf-schema#comment> "The expected or established period of time required to resolve an administrative procedure associated to a public service."@en .
+<https://edint.es/def/servicios-publicos#resolutionPeriod> <http://www.w3.org/2000/01/rdf-schema#label> "Periodo de resolución"@es .
+<https://edint.es/def/servicios-publicos#resolutionPeriod> <http://www.w3.org/2000/01/rdf-schema#label> "Resolution Period"@en .
 # 
-# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#stateProcedure
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#stateProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#stateProcedure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#stateProcedure> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#stateProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "Estado actual del proceso de resolución asociado a un servicio público, que indica si no ha comenzado, está en curso, ha sido resuelto o ha sido cerrado."@es .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#stateProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "The current state of the resolution process associated with a public service, indicating whether it has not started, is in progress, has been resolved, or has been closed."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#stateProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "Estado del Procedimiento"@es .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#stateProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "State of Procedure"@en .
+# https://edint.es/def/servicios-publicos#stateProcedure
+<https://edint.es/def/servicios-publicos#stateProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://edint.es/def/servicios-publicos#stateProcedure> <http://www.w3.org/2000/01/rdf-schema#domain> <https://edint.es/def/servicios-publicos#AdministrativeProcedure> .
+<https://edint.es/def/servicios-publicos#stateProcedure> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://edint.es/def/servicios-publicos#stateProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "Estado actual del proceso de resolución asociado a un servicio público, que indica si no ha comenzado, está en curso, ha sido resuelto o ha sido cerrado."@es .
+<https://edint.es/def/servicios-publicos#stateProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "The current state of the resolution process associated with a public service, indicating whether it has not started, is in progress, has been resolved, or has been closed."@en .
+<https://edint.es/def/servicios-publicos#stateProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "Estado del Procedimiento"@es .
+<https://edint.es/def/servicios-publicos#stateProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "State of Procedure"@en .
 # 
 # 
 # 
@@ -257,32 +356,6 @@ _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 <http://purl.org/vocab/cpsv#Rule> <http://www.w3.org/2000/01/rdf-schema#label> "Rule"@en .
 <http://purl.org/vocab/cpsv#Rule> <http://www.w3.org/2004/02/skos/core#scopeNote> "It includes the terms of service, licence, and authentication requirements of the Public Service. Instances of the Rule class are FRBR Expressions, that is, a concrete expression such as a document, of the more abstract concept of the rules themselves. The CPSV-AP does not envisage instances of the Rule class as machine-readable business rules. Detailed modelling of the rules related to Public Services is out of scope of the CPSV-AP."@en .
 # 
-# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicio#DestinadoProcedimiento
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicio#DestinadoProcedimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicio#DestinadoProcedimiento> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Agent> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicio#DestinadoProcedimiento> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represent the target entity of a Public Service."@en .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicio#DestinadoProcedimiento> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicio> .
-<http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicio#DestinadoProcedimiento> <http://www.w3.org/2000/01/rdf-schema#label> "Destinado Procedimiento"@es .
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#AdministrativeProcedure
-# 
-# http://vocab.linkeddata.es/datosabiertos/def/sector-publico/servicios-publicos#PublicService
-# 
-# http://www.semanticweb.org/owl/owlapi/turtle#AdministrativeProcedure
-<http://www.semanticweb.org/owl/owlapi/turtle#AdministrativeProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/owl/owlapi/turtle#AdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "Formal process followed by a public administration to manage, evaluate, and resolve a request, case, or administrative action."@en .
-<http://www.semanticweb.org/owl/owlapi/turtle#AdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "Proceso formal seguido por una administración pública para gestionar, evaluar y resolver una solicitud, expediente o actuación administrativa."@es .
-<http://www.semanticweb.org/owl/owlapi/turtle#AdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "Administrative Procedure"@en .
-<http://www.semanticweb.org/owl/owlapi/turtle#AdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "Procedimiento Administrativo"@es .
-# 
-# http://www.semanticweb.org/owl/owlapi/turtle#PublicService
-<http://www.semanticweb.org/owl/owlapi/turtle#PublicService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/owl/owlapi/turtle#PublicService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/cpsv#PublicService> .
-<http://www.semanticweb.org/owl/owlapi/turtle#PublicService> <http://www.w3.org/2000/01/rdf-schema#comment> "Municipal public service offered by a public administration or by an entity on its behalf."@en .
-<http://www.semanticweb.org/owl/owlapi/turtle#PublicService> <http://www.w3.org/2000/01/rdf-schema#comment> "Servicio público municipal ofrecido por una administración pública o por una entidad en su nombre."@es .
-<http://www.semanticweb.org/owl/owlapi/turtle#PublicService> <http://www.w3.org/2000/01/rdf-schema#label> "Public Service"@en .
-<http://www.semanticweb.org/owl/owlapi/turtle#PublicService> <http://www.w3.org/2000/01/rdf-schema#label> "Servicio Público"@es .
-# 
 # http://www.w3.org/2004/02/skos/core#Concept
 <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
@@ -302,6 +375,28 @@ _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 <http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://xmlns.com/foaf/0.1/> .
 <http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en .
 # 
+# https://edint.es/def/servicios-publicos#AdministrativeProcedure
+<https://edint.es/def/servicios-publicos#AdministrativeProcedure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/servicios-publicos#AdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "Formal process followed by a public administration to manage, evaluate, and resolve a request, case, or administrative action."@en .
+<https://edint.es/def/servicios-publicos#AdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#comment> "Proceso formal seguido por una administración pública para gestionar, evaluar y resolver una solicitud, expediente o actuación administrativa."@es .
+<https://edint.es/def/servicios-publicos#AdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "Administrative Procedure"@en .
+<https://edint.es/def/servicios-publicos#AdministrativeProcedure> <http://www.w3.org/2000/01/rdf-schema#label> "Procedimiento Administrativo"@es .
+# 
+# https://edint.es/def/servicios-publicos#DestinadoProcedimiento
+<https://edint.es/def/servicios-publicos#DestinadoProcedimiento> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/servicios-publicos#DestinadoProcedimiento> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Agent> .
+<https://edint.es/def/servicios-publicos#DestinadoProcedimiento> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represent the target entity of a Public Service."@en .
+<https://edint.es/def/servicios-publicos#DestinadoProcedimiento> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/servicios-publicos#> .
+<https://edint.es/def/servicios-publicos#DestinadoProcedimiento> <http://www.w3.org/2000/01/rdf-schema#label> "Destinado Procedimiento"@es .
+# 
+# https://edint.es/def/servicios-publicos#PublicService
+<https://edint.es/def/servicios-publicos#PublicService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://edint.es/def/servicios-publicos#PublicService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/cpsv#PublicService> .
+<https://edint.es/def/servicios-publicos#PublicService> <http://www.w3.org/2000/01/rdf-schema#comment> "Municipal public service offered by a public administration or by an entity on its behalf."@en .
+<https://edint.es/def/servicios-publicos#PublicService> <http://www.w3.org/2000/01/rdf-schema#comment> "Servicio público municipal ofrecido por una administración pública o por una entidad en su nombre."@es .
+<https://edint.es/def/servicios-publicos#PublicService> <http://www.w3.org/2000/01/rdf-schema#label> "Public Service"@en .
+<https://edint.es/def/servicios-publicos#PublicService> <http://www.w3.org/2000/01/rdf-schema#label> "Servicio Público"@es .
+# 
 # 
 # 
 # #################################################################
@@ -311,20 +406,31 @@ _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/19
 # #################################################################
 # 
 # 
-# http://vocab.linkeddata.es/datosabiertos/kos/edint/AdministrativeProcedureType
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/AdministrativeProcedureType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/AdministrativeProcedureType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/AdministrativeProcedureType> <http://www.w3.org/2000/01/rdf-schema#comment> "Classification scheme of types of administrative procedures."@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/AdministrativeProcedureType> <http://www.w3.org/2000/01/rdf-schema#comment> "Esquema de clasificación de tipos de procedimientos administrativos."@es .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/AdministrativeProcedureType> <http://www.w3.org/2000/01/rdf-schema#label> "Administrative Procedure Types"@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/AdministrativeProcedureType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipos de Procedimientos Administrativos"@es .
+# https://edint.es/kos/AdministrativeProcedureType
+<https://edint.es/kos/AdministrativeProcedureType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://edint.es/kos/AdministrativeProcedureType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://edint.es/kos/AdministrativeProcedureType> <http://www.w3.org/2000/01/rdf-schema#comment> "Classification scheme of types of administrative procedures."@en .
+<https://edint.es/kos/AdministrativeProcedureType> <http://www.w3.org/2000/01/rdf-schema#comment> "Esquema de clasificación de tipos de procedimientos administrativos."@es .
+<https://edint.es/kos/AdministrativeProcedureType> <http://www.w3.org/2000/01/rdf-schema#label> "Administrative Procedure Types"@en .
+<https://edint.es/kos/AdministrativeProcedureType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipos de Procedimientos Administrativos"@es .
 # 
-# http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServices
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServices> <http://www.w3.org/2000/01/rdf-schema#comment> "Classification scheme of types of public services."@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServices> <http://www.w3.org/2000/01/rdf-schema#comment> "Esquema de clasificación de tipos de servicios públicos."@es .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServices> <http://www.w3.org/2000/01/rdf-schema#label> "Public Services Types"@en .
-<http://vocab.linkeddata.es/datosabiertos/kos/edint/PublicServices> <http://www.w3.org/2000/01/rdf-schema#label> "Tipos de Servicios Públicos"@es .
+# https://edint.es/kos/PublicServices
+<https://edint.es/kos/PublicServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://edint.es/kos/PublicServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://edint.es/kos/PublicServices> <http://www.w3.org/2000/01/rdf-schema#comment> "Classification scheme of types of public services."@en .
+<https://edint.es/kos/PublicServices> <http://www.w3.org/2000/01/rdf-schema#comment> "Esquema de clasificación de tipos de servicios públicos."@es .
+<https://edint.es/kos/PublicServices> <http://www.w3.org/2000/01/rdf-schema#label> "Public Services Types"@en .
+<https://edint.es/kos/PublicServices> <http://www.w3.org/2000/01/rdf-schema#label> "Tipos de Servicios Públicos"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<https://oeg.fi.upm.es/> <http://xmlns.com/foaf/0.1/name> "Ontology Engineering Group, UPM" .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
