@@ -1,4 +1,4 @@
-# Ontología de Servicios Públicos
+# Ontología EDINT de Servicios Públicos
 
 [![Documentación](https://img.shields.io/badge/documentaci%C3%B3n-edint.es-blue)](https://edint.es/def/servicios-publicos)
 ![Prefijo](https://img.shields.io/badge/prefijo-edintserpub-informational)
