@@ -43,6 +43,8 @@
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title xml:lang="es">Ontología EDINT de Servicios Públicos</dcterms:title>
         <dcterms:title xml:lang="en">EDINT Public Services Ontology</dcterms:title>
+        <rdfs:label xml:lang="es">Servicios Públicos</rdfs:label>
+        <rdfs:label xml:lang="en">Public Services</rdfs:label>
         <vann:preferredNamespacePrefix>edintserpub</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri rdf:resource="https://edint.es/def/servicios-publicos#"/>
         <owl:versionInfo>0.1.1</owl:versionInfo>
