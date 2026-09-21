@@ -276,7 +276,7 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://edint.es/kos/PublicServices"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/PublicServiceType"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -528,9 +528,9 @@ This definition is consistent with the more detailed definition of a &quot;publi
     
 
 
-    <!-- https://edint.es/kos/PublicServices -->
+    <!-- https://edint.es/kos/PublicServiceType -->
 
-    <owl:NamedIndividual rdf:about="https://edint.es/kos/PublicServices">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/PublicServiceType">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:comment xml:lang="en">Classification scheme of types of public services.</rdfs:comment>
         <rdfs:comment xml:lang="es">Esquema de clasificación de tipos de servicios públicos.</rdfs:comment>
