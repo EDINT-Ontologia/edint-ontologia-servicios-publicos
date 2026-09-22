@@ -24,7 +24,7 @@ Además de estas clases principales, la ontología puede complementarse con voca
 
 
 <pre><textarea style="resize:none" readonly id="code1" name="code" rows="25" cols="100">
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/servicio-publico/ServicioLicenciaObraMenor&gt;
+ex:ServicioLicenciaObraMenor
     a edintserpub:PublicService ;
     rdfs:label "Servicio de licencia de obra menor"@es ;
     dcterms:description "Servicio municipal que permite a la ciudadanía solicitar autorización para realizar obras menores en viviendas, locales o inmuebles dentro del término municipal."@es ;
@@ -36,20 +36,20 @@ Además de estas clases principales, la ontología puede complementarse con voca
     edintserpub:typePublicService edintkossertype:servicioObras ;
 
     # Procedimiento administrativo asociado
-    edintserpub:hasAdministrativeProcedure &lt;http://vocab.linkeddata.es/datosabiertos/recurso/procedimiento-administrativo/ProcedimientoLicenciaObraMenor&gt; ;
+    edintserpub:hasAdministrativeProcedure ex:ProcedimientoLicenciaObraMenor ;
 
     # Área competente
-    edintserpub:hasCompetentAuthority &lt;http://vocab.linkeddata.es/datosabiertos/recurso/area/AreaUrbanismo&gt; ;
+    edintserpub:hasCompetentAuthority ex:AreaUrbanismo ;
 
     # Punto de contacto
-    cv:contactPoint &lt;http://vocab.linkeddata.es/datosabiertos/recurso/punto-contacto/PuntoContactoUrbanismo&gt; ;
+    cv:contactPoint ex:PuntoContactoUrbanismo ;
 
     # Canales
-    cv:hasChannel &lt;http://vocab.linkeddata.es/datosabiertos/recurso/canal/CanalSedeElectronicaUrbanismo&gt; ;
-    cv:hasChannel &lt;http://vocab.linkeddata.es/datosabiertos/recurso/canal/CanalOficinaAtencionCiudadana&gt; ;
+    cv:hasChannel ex:CanalSedeElectronicaUrbanismo ;
+    cv:hasChannel ex:CanalOficinaAtencionCiudadana ;
 
     # Regla aplicable
-    cpsv:follows &lt;http://vocab.linkeddata.es/datosabiertos/recurso/regla/OrdenanzaUrbanisticaMunicipal&gt; .
+    cpsv:follows ex:OrdenanzaUrbanisticaMunicipal .
 
     # SKOS skos-AdministrativeProcedures.ttl
     edintserpub:typeProcedure edintkosproctype:autorizacionLicencia ;
@@ -60,7 +60,7 @@ Además de estas clases principales, la ontología puede complementarse con voca
 
 
 # Organización pública responsable
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/area/AreaUrbanismo&gt;
+ex:AreaUrbanismo
     a cpsv:PublicOrganisation;
     rdfs:label "Área de Urbanismo del Ayuntamiento de Villa Ejemplo"@es ;
     dcterms:description "Unidad administrativa responsable de gestionar los servicios y procedimientos municipales en materia urbanística."@es ;
@@ -68,7 +68,7 @@ Además de estas clases principales, la ontología puede complementarse con voca
 
 
 # Punto de contacto
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/punto-contacto/PuntoContactoUrbanismo&gt;
+ex:PuntoContactoUrbanismo
     a cv:ContactPoint ;
     rdfs:label "Punto de contacto del Área de Urbanismo"@es ;
     schema:email "urbanismo@madrid.es" ;
@@ -76,19 +76,20 @@ Además de estas clases principales, la ontología puede complementarse con voca
     schema:contactType "Información y tramitación urbanística"@es .
 
 # Canal específico de urbanismo
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/canal/CanalSedeElectronicaUrbanismo&gt;
+ex:CanalSedeElectronicaUrbanismo
     a cv:Channel ;
     rdfs:label "Sede electrónica municipal para trámites urbanísticos"@es ;
     schema:url &lt;https://sede.madrid.es/urbanismo/licencia-obra-menor&gt; ;
     dcterms:description "Canal electrónico para presentar la solicitud de licencia de obra menor y consultar el estado del procedimiento."@es .
 
 # Regla aplicable al procedimiento urbanístico
-&lt;http://vocab.linkeddata.es/datosabiertos/recurso/regla/OrdenanzaUrbanisticaMunicipal&gt;
+ex:OrdenanzaUrbanisticaMunicipal
     a cpsv:Rule ;
     rdfs:label "Ordenanza municipal reguladora de actuaciones urbanísticas"@es ;
     dcterms:description "Norma municipal que regula los requisitos, condiciones y documentación aplicables a la tramitación de licencias urbanísticas."@es ;
     dcterms:identifier "RULE-URB-001" .
 
-</textarea></pre><script>var editor1 = CodeMirror.fromTextArea(document.getElementById("code1"), {mode: "text/turtle", matchBrackets: true});</script>
+</textarea></pre>
+<script>var editor1 = CodeMirror.fromTextArea(document.getElementById("code1"), {mode: "text/turtle", matchBrackets: true});</script>
 
 
