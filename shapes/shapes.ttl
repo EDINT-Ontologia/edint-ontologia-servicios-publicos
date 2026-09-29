@@ -51,10 +51,6 @@
         <https://w3id.org/def/astrea#statusCode>
                 "206"^^xsd:int .
 
-<https://astrea.linkeddata.es/shapes#7d482eb871622dc4066b4b983184ab78>
-        a            sh:PropertyShape ;
-        sh:nodeKind  sh:Literal .
-
 <https://astrea.linkeddata.es/shapes#9747ef62a4bf1aaa00736e1a44e32455>
         a                 sh:PropertyShape ;
         rdfs:isDefinedBy  <http://data.europa.eu/m8g/cpsvap/3.2.0> ;

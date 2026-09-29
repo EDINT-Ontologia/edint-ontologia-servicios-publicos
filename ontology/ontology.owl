@@ -64,7 +64,32 @@
     <schema:creativeWorkStatus xml:lang="en">Ontology Specification</schema:creativeWorkStatus>
     <dcterms:abstract xml:lang="es">La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados.</dcterms:abstract>
     <dcterms:abstract xml:lang="en">The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved.</dcterms:abstract>
-</owl:Ontology>
+        <widoco:rdfxmlSerialization>ontology.rdf</widoco:rdfxmlSerialization>
+        <widoco:turtleSerialization>ontology.ttl</widoco:turtleSerialization>
+        <widoco:ntSerialization>ontology.nt</widoco:ntSerialization>
+        <widoco:jsonldSerialization>ontology.jsonld</widoco:jsonldSerialization>
+            <widoco:vocabularyLabel>
+            <rdf:Description>
+                <widoco:vocabularyIRI rdf:resource="http://data.europa.eu/m8g"/>
+                <rdfs:label xml:lang="es">CPSV-AP (Core Public Service Vocabulary)</rdfs:label>
+                <rdfs:label xml:lang="en">CPSV-AP (Core Public Service Vocabulary)</rdfs:label>
+            </rdf:Description>
+        </widoco:vocabularyLabel>
+        <widoco:vocabularyLabel>
+            <rdf:Description>
+                <widoco:vocabularyIRI rdf:resource="http://purl.org/vocab/cpsv"/>
+                <rdfs:label xml:lang="es">CPSV</rdfs:label>
+                <rdfs:label xml:lang="en">CPSV</rdfs:label>
+            </rdf:Description>
+        </widoco:vocabularyLabel>
+        <widoco:vocabularyLabel>
+            <rdf:Description>
+                <widoco:vocabularyIRI rdf:resource="http://www.w3.org/ns/org"/>
+                <rdfs:label xml:lang="es">ORG</rdfs:label>
+                <rdfs:label xml:lang="en">ORG</rdfs:label>
+            </rdf:Description>
+        </widoco:vocabularyLabel>
+    </owl:Ontology>
     <foaf:Organization rdf:about="https://oeg.fi.upm.es/">
         <foaf:name>Ontology Engineering Group, UPM</foaf:name>
     </foaf:Organization>
@@ -276,7 +301,7 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
                     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
-                        <owl:hasValue rdf:resource="https://edint.es/kos/PublicServices"/>
+                        <owl:hasValue rdf:resource="https://edint.es/kos/PublicServiceType"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -528,9 +553,9 @@ This definition is consistent with the more detailed definition of a &quot;publi
     
 
 
-    <!-- https://edint.es/kos/PublicServices -->
+    <!-- https://edint.es/kos/PublicServiceType -->
 
-    <owl:NamedIndividual rdf:about="https://edint.es/kos/PublicServices">
+    <owl:NamedIndividual rdf:about="https://edint.es/kos/PublicServiceType">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
         <rdfs:comment xml:lang="en">Classification scheme of types of public services.</rdfs:comment>
         <rdfs:comment xml:lang="es">Esquema de clasificación de tipos de servicios públicos.</rdfs:comment>
@@ -538,33 +563,7 @@ This definition is consistent with the more detailed definition of a &quot;publi
         <rdfs:label xml:lang="es">Tipos de Servicios Públicos</rdfs:label>
     </owl:NamedIndividual>
     <!-- Nombres de fichero de las serializaciones generadas (vocabulario Widoco) -->
-    <owl:Ontology rdf:about="https://edint.es/def/servicios-publicos#">
-        <widoco:rdfxmlSerialization>ontology.rdf</widoco:rdfxmlSerialization>
-        <widoco:turtleSerialization>ontology.ttl</widoco:turtleSerialization>
-        <widoco:ntSerialization>ontology.nt</widoco:ntSerialization>
-        <widoco:jsonldSerialization>ontology.jsonld</widoco:jsonldSerialization>
-            <widoco:vocabularyLabel>
-            <rdf:Description>
-                <widoco:vocabularyIRI rdf:resource="http://data.europa.eu/m8g"/>
-                <rdfs:label xml:lang="es">CPSV-AP (Core Public Service Vocabulary)</rdfs:label>
-                <rdfs:label xml:lang="en">CPSV-AP (Core Public Service Vocabulary)</rdfs:label>
-            </rdf:Description>
-        </widoco:vocabularyLabel>
-        <widoco:vocabularyLabel>
-            <rdf:Description>
-                <widoco:vocabularyIRI rdf:resource="http://purl.org/vocab/cpsv"/>
-                <rdfs:label xml:lang="es">CPSV</rdfs:label>
-                <rdfs:label xml:lang="en">CPSV</rdfs:label>
-            </rdf:Description>
-        </widoco:vocabularyLabel>
-        <widoco:vocabularyLabel>
-            <rdf:Description>
-                <widoco:vocabularyIRI rdf:resource="http://www.w3.org/ns/org"/>
-                <rdfs:label xml:lang="es">ORG</rdfs:label>
-                <rdfs:label xml:lang="en">ORG</rdfs:label>
-            </rdf:Description>
-        </widoco:vocabularyLabel>
-</owl:Ontology>
+    
 </rdf:RDF>
 
 
