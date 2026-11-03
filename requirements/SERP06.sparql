@@ -1,13 +1,14 @@
 # SERP06: ¿Qué organización pública es la autoridad competente de cada servicio público?
 
 PREFIX serpub: <https://edint.es/def/servicios-publicos#>
+PREFIX cpsv: <http://purl.org/vocab/cpsv#>
 PREFIX m8g: <http://data.europa.eu/m8g/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?servicioPublico ?etiquetaServicio ?organizacionPublica ?etiquetaOrganizacion
 WHERE {
   ?servicioPublico a serpub:PublicService ;
-                   serpub:hasCompetentAuthority ?organizacionPublica .
+                   cpsv:hasCompetentAuthority ?organizacionPublica .
 
   ?organizacionPublica a m8g:PublicOrganisation .
 
