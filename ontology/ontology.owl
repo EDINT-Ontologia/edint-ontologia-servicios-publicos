@@ -40,7 +40,7 @@
         </dcterms:creator>
         <dcterms:description xml:lang="es">La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados.</dcterms:description>
         <dcterms:description xml:lang="en">The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved.</dcterms:description>
-        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <dcterms:title xml:lang="es">Ontología EDINT de Servicios Públicos</dcterms:title>
         <dcterms:title xml:lang="en">EDINT Public Services Ontology</dcterms:title>
         <rdfs:label xml:lang="es">Servicios Públicos</rdfs:label>
