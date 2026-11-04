@@ -1,5 +1,4 @@
 @prefix edintserpub:          <https://edint.es/def/servicios-publicos#> .
-@prefix esproc:               <https://edint.es/def/servicios-publicos#> .
 
 @prefix edintkos:             <https://edint.es/kos/> .
 @prefix edintkossertype:      <https://edint.es/kos/PublicServiceType/> .
