@@ -27,7 +27,6 @@ ex:ServicioLicenciaObraMenor
     rdfs:label "Servicio de licencia de obra menor"@es ;
     dcterms:description "Servicio municipal que permite a la ciudadanía solicitar autorización para realizar obras menores en viviendas, locales o inmuebles dentro del término municipal."@es ;
     dcterms:identifier "SP-URB-001" ;
-    edintserpub:identifier "SP-URB-001" ;
 
     edintserpub:availability "Disponible durante todo el año a través de la sede electrónica municipal y de la oficina de atención ciudadana."@es ;
 
