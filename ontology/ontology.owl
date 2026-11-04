@@ -344,18 +344,6 @@ type of audience, etc. The Concept is at its turn related to a Collection, which
     
 
 
-    <!-- https://edint.es/def/servicios-publicos#identifier -->
-
-    <owl:DatatypeProperty rdf:about="https://edint.es/def/servicios-publicos#identifier">
-        <rdfs:domain rdf:resource="https://edint.es/def/servicios-publicos#PublicService"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment xml:lang="en">A unique textual or numeric code assigned to a public service to enable its identification and management across systems or administrative processes.</rdfs:comment>
-        <rdfs:comment xml:lang="es">Código textual o numérico único asignado a un servicio público para permitir su identificación y gestión en sistemas o procesos administrativos.</rdfs:comment>
-        <rdfs:label xml:lang="es">Identificador</rdfs:label>
-        <rdfs:label xml:lang="en">Identifier</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
 
     <!-- https://edint.es/def/servicios-publicos#resolutionPeriod -->
 
@@ -458,6 +446,7 @@ This definition is consistent with the more detailed definition of a &quot;publi
         <rdfs:comment xml:lang="en">This class represent the target entity of a Public Service.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://edint.es/def/servicios-publicos#"/>
         <rdfs:label xml:lang="es">Destinado Procedimiento</rdfs:label>
+        <rdfs:label xml:lang="en">Procedure Target</rdfs:label>
     </owl:Class>
     
 
