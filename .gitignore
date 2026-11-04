@@ -1,0 +1,18 @@
+# Bytecode / cachés de Python y pytest
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Artefactos de la suite de tests
+.shacl_*.ttl
+
+# Basura de edición / sistema
+*.bak
+*.orig
+*.rej
+.DS_Store
+
+# Generados por Widoco
+widoco*
+.config

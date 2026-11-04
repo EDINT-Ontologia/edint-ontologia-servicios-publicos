@@ -1,12 +1,13 @@
 # SERP08: ¿Qué servicios públicos son responsabilidad de una organización pública concreta?
 
 PREFIX serpub: <https://edint.es/def/servicios-publicos#>
+PREFIX cpsv: <http://purl.org/vocab/cpsv#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?servicioPublico ?etiquetaServicio
 WHERE {
   ?servicioPublico a serpub:PublicService ;
-                   serpub:hasCompetentAuthority <http://example.org/resource/public-organization/AyuntamientoMadrid> .
+                   cpsv:hasCompetentAuthority <URI-ORGANISMO> . #Por ejemplo, <https://example.org/recurso/AreaUrbanismo>
 
   OPTIONAL {
     ?servicioPublico rdfs:label ?etiquetaServicio .

@@ -195,11 +195,12 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
         </div>
         <div class="main-content">
     <section class="file-card" id="SERP01_sparql"><div class="file-header">SERP01.sparql</div><div class="query-block"><span class="query-title">SERP01: ¿Cuál es el identificador de cada servicio público?</span><div class="sparql-code"><pre><span></span><span class="k">PREFIX</span> <span class="nn">serpub</span><span class="p">:</span> <span class="nl">&lt;https://edint.es/def/servicios-publicos#&gt;</span>
+<span class="k">PREFIX</span> <span class="nn">dcterms</span><span class="p">:</span> <span class="nl">&lt;http://purl.org/dc/terms/&gt;</span>
 
 <span class="k">SELECT</span> <span class="nv">?servicioPublico</span> <span class="nv">?identificador</span>
 <span class="k">WHERE</span> <span class="p">{</span>
   <span class="nv">?servicioPublico</span> <span class="k">a</span> <span class="nn">serpub</span><span class="p">:</span><span class="nt">PublicService</span> <span class="p">;</span>
-                   <span class="nn">serpub</span><span class="p">:</span><span class="nt">identifier</span> <span class="nv">?identificador</span> <span class="p">.</span>
+                   <span class="nn">dcterms</span><span class="p">:</span><span class="nt">identifier</span> <span class="nv">?identificador</span> <span class="p">.</span>
 <span class="p">}</span>
 <span class="k">ORDER BY</span> <span class="nv">?servicioPublico</span>
 </pre></div>
