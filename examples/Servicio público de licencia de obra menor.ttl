@@ -1,5 +1,4 @@
 @prefix edintserpub:          <https://edint.es/def/servicios-publicos#> .
-@prefix esproc:               <https://edint.es/def/servicios-publicos#> .
 
 @prefix edintkos:             <https://edint.es/kos/> .
 @prefix edintkossertype:      <https://edint.es/kos/PublicServiceType/> .
@@ -8,6 +7,7 @@
 @prefix ex:     <http://example.org/recurso/> .
 
 @prefix cpsv:                 <http://purl.org/vocab/cpsv#> .
+@prefix cpap:                 <https://semiceu.github.io/CPSV-AP/releases/3.2.0/> .
 @prefix cv:                   <http://data.europa.eu/m8g/> .
 @prefix org:                  <http://www.w3.org/ns/org#> .
 @prefix foaf:                 <http://xmlns.com/foaf/0.1/> .
@@ -35,30 +35,24 @@ ex:ServicioLicenciaObraMenor
     # Procedimiento administrativo asociado
     edintserpub:hasAdministrativeProcedure ex:ProcedimientoLicenciaObraMenor ;
 
-    # Área competente
-    edintserpub:hasCompetentAuthority ex:AreaUrbanismo ;
+    # Área competente (la ontología reutiliza cpsv:hasCompetentAuthority)
+    cpsv:hasCompetentAuthority ex:AreaUrbanismo ;
 
     # Punto de contacto
-    cv:contactPoint ex:PuntoContactoUrbanismo ;
+    cpap:hasContactPoint ex:PuntoContactoUrbanismo ;
 
     # Canales
     cv:hasChannel ex:CanalSedeElectronicaUrbanismo ;
     cv:hasChannel ex:CanalOficinaAtencionCiudadana ;
 
     # Regla aplicable
-    cpsv:follows ex:OrdenanzaUrbanisticaMunicipal ;
-
-    # SKOS skos-AdministrativeProcedures.ttl
-    edintserpub:typeProcedure edintkosproctype:autorizacionLicencia ;
-
-    edintserpub:resolutionPeriod "P3M"^^xsd:duration ;
-    edintserpub:stateProcedure "Abierto"@es .
+    cpsv:follows ex:OrdenanzaUrbanisticaMunicipal .
 
 
 
-# Organización pública responsable
+# Organización pública responsable (CPSV-AP: m8g:PublicOrganisation)
 ex:AreaUrbanismo
-    a cpsv:PublicOrganisation;
+    a cv:PublicOrganisation ;
     rdfs:label "Área de Urbanismo del Ayuntamiento de Villa Ejemplo"@es ;
     dcterms:description "Unidad administrativa responsable de gestionar los servicios y procedimientos municipales en materia urbanística."@es ;
     dcterms:identifier "ORG-URB-001" .
@@ -85,3 +79,19 @@ ex:OrdenanzaUrbanisticaMunicipal
     rdfs:label "Ordenanza municipal reguladora de actuaciones urbanísticas"@es ;
     dcterms:description "Norma municipal que regula los requisitos, condiciones y documentación aplicables a la tramitación de licencias urbanísticas."@es ;
     dcterms:identifier "RULE-URB-001" .
+
+# Procedimiento administrativo asociado al servicio
+ex:ProcedimientoLicenciaObraMenor
+    a edintserpub:AdministrativeProcedure ;
+    rdfs:label "Procedimiento de licencia de obra menor"@es ;
+    dcterms:identifier "PROC-URB-001" ;
+    edintserpub:typeProcedure edintkosproctype:autorizacionLicencia ;
+    edintserpub:resolutionPeriod "P3M"^^xsd:duration ;
+    edintserpub:stateProcedure "Abierto"@es .
+
+# Labels de los conceptos KOS referenciados por el ejemplo (el grafo de
+# ejemplos es autocontenido; el KOS completo vive en kos/).
+edintkossertype:servicioObras skos:inScheme <https://edint.es/kos/PublicServiceType> ;
+    skos:prefLabel "Servicio de Obras"@es , "Public Works Service"@en .
+edintkosproctype:autorizacionLicencia skos:inScheme <https://edint.es/kos/AdministrativeProcedureType/> ;
+    skos:prefLabel "Autorización"@es , "Authorisation"@en .
