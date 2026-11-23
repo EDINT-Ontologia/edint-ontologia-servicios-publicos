@@ -202,7 +202,7 @@ Esta secci&oacute;n introduce m&aacute;s detalles sobre cada clase y propiedad d
    </dd>
    <dt>en dominio de</dt>
    <dd>
-    <a href="#availability" title="https://edint.es/def/servicios-publicos#availability">Disponibilidad</a> <sup class="type-dp" title="Propiedad de datos">dp</sup>, <a href="#identifier" title="https://edint.es/def/servicios-publicos#identifier">Identificador</a> <sup class="type-dp" title="Propiedad de datos">dp</sup>, <a href="#typePublicService" title="https://edint.es/def/servicios-publicos#typePublicService">Tipo de Servicio Público</a> <sup class="type-op" title="Propiedad entre objetos">op</sup>, <a href="#hasAdministrativeProcedure" title="https://edint.es/def/servicios-publicos#hasAdministrativeProcedure">tiene Procedimiento Administrativo</a> <sup class="type-op" title="Propiedad entre objetos">op</sup>
+    <a href="#availability" title="https://edint.es/def/servicios-publicos#availability">Disponibilidad</a> <sup class="type-dp" title="Propiedad de datos">dp</sup>, <a href="#typePublicService" title="https://edint.es/def/servicios-publicos#typePublicService">Tipo de Servicio Público</a> <sup class="type-op" title="Propiedad entre objetos">op</sup>, <a href="#hasAdministrativeProcedure" title="https://edint.es/def/servicios-publicos#hasAdministrativeProcedure">tiene Procedimiento Administrativo</a> <sup class="type-op" title="Propiedad entre objetos">op</sup>
    </dd>
   </dl>
  </div>
@@ -377,7 +377,7 @@ Esta secci&oacute;n introduce m&aacute;s detalles sobre cada clase y propiedad d
     </dd>
     <dt>rango</dt>
     <dd>
-     <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="clase">c</sup> <span class="logic">and</span> (<a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-op" title="Propiedad entre objetos">op</sup> <span class="logic">value</span> <a href="#https://edint.es/kos/PublicServices" title="https://edint.es/kos/PublicServices">Tipos de Servicios Públicos</a> <sup class="type-ni" title="Individuo">ni</sup>)
+     <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="clase">c</sup> <span class="logic">and</span> (<a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-op" title="Propiedad entre objetos">op</sup> <span class="logic">value</span> <a href="#https://edint.es/kos/PublicServiceType" title="https://edint.es/kos/PublicServiceType">Tipos de Servicios Públicos</a> <sup class="type-ni" title="Individuo">ni</sup>)
     </dd>
    </dl>
   </div>
@@ -387,7 +387,6 @@ Esta secci&oacute;n introduce m&aacute;s detalles sobre cada clase y propiedad d
  <ul class="hlist">
   <li><a href="#availability" title="https://edint.es/def/servicios-publicos#availability">Disponibilidad</a></li>
   <li><a href="#stateProcedure" title="https://edint.es/def/servicios-publicos#stateProcedure">Estado del Procedimiento</a></li>
-  <li><a href="#identifier" title="https://edint.es/def/servicios-publicos#identifier">Identificador</a></li>
   <li><a href="#resolutionPeriod" title="https://edint.es/def/servicios-publicos#resolutionPeriod">Periodo de resolución</a></li>
  </ul>
  <div class="entity" id="availability">
@@ -428,25 +427,6 @@ Esta secci&oacute;n introduce m&aacute;s detalles sobre cada clase y propiedad d
    </dl>
   </div>
  </div>
- <div class="entity" id="identifier">
-  <h3>Identificador<sup class="type-dp" title="Propiedad de datos">dp</sup> <span class="backlink"> Volver a <a href="#toc">índice</a> o <a href="#dataproperties">Índice de propiedades de datos</a> </span></h3>
-  <p><strong>IRI:</strong> https://edint.es/def/servicios-publicos#identifier</p>
-  <div class="comment">
-   <span class="markdown">Código textual o numérico único asignado a un servicio público para permitir su identificación y gestión en sistemas o procesos administrativos.</span>
-  </div>
-  <div class="description">
-   <dl>
-    <dt>dominio</dt>
-    <dd>
-     <a href="#PublicService" title="https://edint.es/def/servicios-publicos#PublicService">Servicio Público</a> <sup class="type-c" title="clase">c</sup>
-    </dd>
-    <dt>rango</dt>
-    <dd>
-     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
-    </dd>
-   </dl>
-  </div>
- </div>
  <div class="entity" id="resolutionPeriod">
   <h3>Periodo de resolución<sup class="type-dp" title="Propiedad de datos">dp</sup> <span class="backlink"> Volver a <a href="#toc">índice</a> o <a href="#dataproperties">Índice de propiedades de datos</a> </span></h3>
   <p><strong>IRI:</strong> https://edint.es/def/servicios-publicos#resolutionPeriod</p>
@@ -467,10 +447,10 @@ Esta secci&oacute;n introduce m&aacute;s detalles sobre cada clase y propiedad d
   </div>
  </div>
 </div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
- <h3 id="namedindividuals" class="list">Individuos</h3>
+ <h3 id="namedindividuals-headline" class="list">Individuos</h3>
  <ul class="hlist">
   <li><a href="#https://edint.es/kos/AdministrativeProcedureType" title="https://edint.es/kos/AdministrativeProcedureType">Tipos de Procedimientos Administrativos</a></li>
-  <li><a href="#https://edint.es/kos/PublicServices" title="https://edint.es/kos/PublicServices">Tipos de Servicios Públicos</a></li>
+  <li><a href="#https://edint.es/kos/PublicServiceType" title="https://edint.es/kos/PublicServiceType">Tipos de Servicios Públicos</a></li>
  </ul>
  <div class="entity" id="https://edint.es/kos/AdministrativeProcedureType">
   <h3>Tipos de Procedimientos Administrativos<sup class="type-ni" title="Individuo">ni</sup> <span class="backlink"> Volver a <a href="#toc">índice</a> o <a href="#namedindividuals">Índice de individuos</a> </span></h3>
@@ -485,9 +465,9 @@ Esta secci&oacute;n introduce m&aacute;s detalles sobre cada clase y propiedad d
    </dd>
   </dl>
  </div>
- <div class="entity" id="https://edint.es/kos/PublicServices">
+ <div class="entity" id="https://edint.es/kos/PublicServiceType">
   <h3>Tipos de Servicios Públicos<sup class="type-ni" title="Individuo">ni</sup> <span class="backlink"> Volver a <a href="#toc">índice</a> o <a href="#namedindividuals">Índice de individuos</a> </span></h3>
-  <p><strong>IRI:</strong> https://edint.es/kos/PublicServices</p>
+  <p><strong>IRI:</strong> https://edint.es/kos/PublicServiceType</p>
   <div class="comment">
    <span class="markdown">Esquema de clasificación de tipos de servicios públicos.</span>
   </div>

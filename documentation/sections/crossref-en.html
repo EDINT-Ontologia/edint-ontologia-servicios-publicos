@@ -7,8 +7,8 @@ This section provides details for each class and property defined by Public Serv
   <li><a href="#http://xmlns.com/foaf/0.1/Agent" title="http://xmlns.com/foaf/0.1/Agent">Agent</a></li>
   <li><a href="#http://data.europa.eu/m8g/Channel" title="http://data.europa.eu/m8g/Channel">Channel</a></li>
   <li><a href="#http://data.europa.eu/m8g/ContactPoint" title="http://data.europa.eu/m8g/ContactPoint">Contact Point</a></li>
-  <li><a href="#DestinadoProcedimiento" title="https://edint.es/def/servicios-publicos#DestinadoProcedimiento">Destinado Procedimiento</a></li>
   <li><a href="#http://www.w3.org/ns/org#Organization" title="http://www.w3.org/ns/org#Organization">Organization</a></li>
+  <li><a href="#DestinadoProcedimiento" title="https://edint.es/def/servicios-publicos#DestinadoProcedimiento">Procedure Target</a></li>
   <li><a href="#http://data.europa.eu/m8g/PublicOrganisation" title="http://data.europa.eu/m8g/PublicOrganisation">Public Organization</a></li>
   <li><a href="#http://purl.org/vocab/cpsv#PublicService" title="http://purl.org/vocab/cpsv#PublicService">Public Service</a></li>
   <li><a href="#PublicService" title="https://edint.es/def/servicios-publicos#PublicService">Public Service</a></li>
@@ -46,7 +46,7 @@ This section provides details for each class and property defined by Public Serv
   <dl class="description">
    <dt>has sub-classes</dt>
    <dd>
-    <a href="#DestinadoProcedimiento" title="https://edint.es/def/servicios-publicos#DestinadoProcedimiento">Destinado Procedimiento</a> <sup class="type-c" title="class">c</sup>, <a href="#http://www.w3.org/ns/org#Organization" title="http://www.w3.org/ns/org#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
+    <a href="#http://www.w3.org/ns/org#Organization" title="http://www.w3.org/ns/org#Organization">Organization</a> <sup class="type-c" title="class">c</sup>, <a href="#DestinadoProcedimiento" title="https://edint.es/def/servicios-publicos#DestinadoProcedimiento">Procedure Target</a> <sup class="type-c" title="class">c</sup>
    </dd>
   </dl>
  </div>
@@ -84,25 +84,6 @@ This section provides details for each class and property defined by Public Serv
    </dd>
   </dl>
  </div>
- <div class="entity" id="DestinadoProcedimiento">
-  <h3>Destinado Procedimiento<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://edint.es/def/servicios-publicos#DestinadoProcedimiento</p>
-  <div class="comment">
-   <span class="markdown">This class represent the target entity of a Public Service.</span>
-  </div>
-  <dl class="definedBy">
-   <dt>Is defined by</dt>
-   <dd>
-    <a href="https://edint.es/def/servicios-publicos#">https://edint.es/def/servicios-publicos#</a>
-   </dd>
-  </dl>
-  <dl class="description">
-   <dt>has super-classes</dt>
-   <dd>
-    <a href="#http://xmlns.com/foaf/0.1/Agent" title="http://xmlns.com/foaf/0.1/Agent">Agent</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-  </dl>
- </div>
  <div class="entity" id="http://www.w3.org/ns/org#Organization">
   <h3>Organization<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.w3.org/ns/org#Organization</p>
@@ -123,6 +104,25 @@ This section provides details for each class and property defined by Public Serv
    <dt>has sub-classes</dt>
    <dd>
     <a href="#http://data.europa.eu/m8g/PublicOrganisation" title="http://data.europa.eu/m8g/PublicOrganisation">Public Organization</a> <sup class="type-c" title="class">c</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="DestinadoProcedimiento">
+  <h3>Procedure Target<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://edint.es/def/servicios-publicos#DestinadoProcedimiento</p>
+  <div class="comment">
+   <span class="markdown">This class represent the target entity of a Public Service.</span>
+  </div>
+  <dl class="definedBy">
+   <dt>Is defined by</dt>
+   <dd>
+    <a href="https://edint.es/def/servicios-publicos#">https://edint.es/def/servicios-publicos#</a>
+   </dd>
+  </dl>
+  <dl class="description">
+   <dt>has super-classes</dt>
+   <dd>
+    <a href="#http://xmlns.com/foaf/0.1/Agent" title="http://xmlns.com/foaf/0.1/Agent">Agent</a> <sup class="type-c" title="class">c</sup>
    </dd>
   </dl>
  </div>
@@ -185,7 +185,7 @@ This section provides details for each class and property defined by Public Serv
    </dd>
    <dt>is in domain of</dt>
    <dd>
-    <a href="#availability" title="https://edint.es/def/servicios-publicos#availability">Availability</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#identifier" title="https://edint.es/def/servicios-publicos#identifier">Identifier</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#typePublicService" title="https://edint.es/def/servicios-publicos#typePublicService">Type of Public Service</a> <sup class="type-op" title="object property">op</sup>, <a href="#hasAdministrativeProcedure" title="https://edint.es/def/servicios-publicos#hasAdministrativeProcedure">has Administrative Procedure</a> <sup class="type-op" title="object property">op</sup>
+    <a href="#availability" title="https://edint.es/def/servicios-publicos#availability">Availability</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#typePublicService" title="https://edint.es/def/servicios-publicos#typePublicService">Type of Public Service</a> <sup class="type-op" title="object property">op</sup>, <a href="#hasAdministrativeProcedure" title="https://edint.es/def/servicios-publicos#hasAdministrativeProcedure">has Administrative Procedure</a> <sup class="type-op" title="object property">op</sup>
    </dd>
   </dl>
  </div>
@@ -377,7 +377,7 @@ This section provides details for each class and property defined by Public Serv
     </dd>
     <dt>has range</dt>
     <dd>
-     <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup> <span class="logic">and</span> (<a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-op" title="object property">op</sup> <span class="logic">value</span> <a href="#https://edint.es/kos/PublicServices" title="https://edint.es/kos/PublicServices">Public Services Types</a> <sup class="type-ni" title="named individual">ni</sup>)
+     <a href="http://www.w3.org/2004/02/skos/core#Concept" target="_blank" title="http://www.w3.org/2004/02/skos/core#Concept">Concept</a> <sup class="type-c" title="class">c</sup> <span class="logic">and</span> (<a href="http://www.w3.org/2004/02/skos/core#inScheme" target="_blank" title="http://www.w3.org/2004/02/skos/core#inScheme">in Scheme</a> <sup class="type-op" title="object property">op</sup> <span class="logic">value</span> <a href="#https://edint.es/kos/PublicServiceType" title="https://edint.es/kos/PublicServiceType">Public Services Types</a> <sup class="type-ni" title="named individual">ni</sup>)
     </dd>
    </dl>
   </div>
@@ -386,7 +386,6 @@ This section provides details for each class and property defined by Public Serv
  <h3 id="dataproperties-headline" class="list">Data Properties</h3>
  <ul class="hlist">
   <li><a href="#availability" title="https://edint.es/def/servicios-publicos#availability">Availability</a></li>
-  <li><a href="#identifier" title="https://edint.es/def/servicios-publicos#identifier">Identifier</a></li>
   <li><a href="#resolutionPeriod" title="https://edint.es/def/servicios-publicos#resolutionPeriod">Resolution Period</a></li>
   <li><a href="#stateProcedure" title="https://edint.es/def/servicios-publicos#stateProcedure">State of Procedure</a></li>
  </ul>
@@ -395,25 +394,6 @@ This section provides details for each class and property defined by Public Serv
   <p><strong>IRI:</strong> https://edint.es/def/servicios-publicos#availability</p>
   <div class="comment">
    <span class="markdown">Indicates the current or declared availability of the public service.</span>
-  </div>
-  <div class="description">
-   <dl>
-    <dt>has domain</dt>
-    <dd>
-     <a href="#PublicService" title="https://edint.es/def/servicios-publicos#PublicService">Public Service</a> <sup class="type-c" title="class">c</sup>
-    </dd>
-    <dt>has range</dt>
-    <dd>
-     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
-    </dd>
-   </dl>
-  </div>
- </div>
- <div class="entity" id="identifier">
-  <h3>Identifier<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://edint.es/def/servicios-publicos#identifier</p>
-  <div class="comment">
-   <span class="markdown">A unique textual or numeric code assigned to a public service to enable its identification and management across systems or administrative processes.</span>
   </div>
   <div class="description">
    <dl>
@@ -467,10 +447,10 @@ This section provides details for each class and property defined by Public Serv
   </div>
  </div>
 </div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
- <h3 id="namedindividuals" class="list">Named Individuals</h3>
+ <h3 id="namedindividuals-headline" class="list">Named Individuals</h3>
  <ul class="hlist">
   <li><a href="#https://edint.es/kos/AdministrativeProcedureType" title="https://edint.es/kos/AdministrativeProcedureType">Administrative Procedure Types</a></li>
-  <li><a href="#https://edint.es/kos/PublicServices" title="https://edint.es/kos/PublicServices">Public Services Types</a></li>
+  <li><a href="#https://edint.es/kos/PublicServiceType" title="https://edint.es/kos/PublicServiceType">Public Services Types</a></li>
  </ul>
  <div class="entity" id="https://edint.es/kos/AdministrativeProcedureType">
   <h3>Administrative Procedure Types<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
@@ -485,9 +465,9 @@ This section provides details for each class and property defined by Public Serv
    </dd>
   </dl>
  </div>
- <div class="entity" id="https://edint.es/kos/PublicServices">
+ <div class="entity" id="https://edint.es/kos/PublicServiceType">
   <h3>Public Services Types<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://edint.es/kos/PublicServices</p>
+  <p><strong>IRI:</strong> https://edint.es/kos/PublicServiceType</p>
   <div class="comment">
    <span class="markdown">Classification scheme of types of public services.</span>
   </div>

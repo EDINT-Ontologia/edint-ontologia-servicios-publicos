@@ -1,64 +1,64 @@
-<https://edint.es/def/servicios-publicos#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://edint.es/def/servicios-publicos#> <http://www.w3.org/2002/07/owl#versionIRI> <https://edint.es/def/servicios-publicos/0.1.1> .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/abstract> "La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados."@es .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/abstract> "The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved."@en .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/bibliographicCitation> "EDINT Public Services Ontology. EDINT. Revision: v0.1.1."@en .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/bibliographicCitation> "Ontología EDINT de Servicios Públicos. EDINT. Revisión: v0.1.1."@es .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/created> "2026-03-23"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid1 .
+<https://edint.es/def/servicios-publicos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://edint.es/def/servicios-publicos> <http://www.w3.org/2002/07/owl#versionIRI> <https://edint.es/def/servicios-publicos/0.1.1> .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/abstract> "La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados."@es .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/abstract> "The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved."@en .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/bibliographicCitation> "EDINT Public Services Ontology. EDINT. Revision: v0.1.1."@en .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/bibliographicCitation> "Ontología EDINT de Servicios Públicos. EDINT. Revisión: v0.1.1."@es .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/created> "2026-03-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/creator> _:genid1 .
 _:genid1 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid1 <http://xmlns.com/foaf/0.1/name> "Diego Conde" .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid2 .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/creator> _:genid2 .
 _:genid2 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid2 <http://xmlns.com/foaf/0.1/name> "Daniel Doña" .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid3 .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/creator> _:genid3 .
 _:genid3 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid3 <http://xmlns.com/foaf/0.1/name> "Edna Ruckhaus" .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid4 .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/creator> _:genid4 .
 _:genid4 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid4 <http://xmlns.com/foaf/0.1/name> "Lucía Sánchez" .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid5 .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/creator> _:genid5 .
 _:genid5 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid5 <http://xmlns.com/foaf/0.1/name> "Oscar Corcho" .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/creator> _:genid6 .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/creator> _:genid6 .
 _:genid6 <https://schema.org/affiliation> <https://oeg.fi.upm.es/> .
 _:genid6 <http://xmlns.com/foaf/0.1/name> "Socorro Bernardos" .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/description> "La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados."@es .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/description> "The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved."@en .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/issued> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/modified> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/publisher> _:genid7 .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/description> "La Ontología de Servicios Públicos describe conceptos relacionados con los servicios municipales suministrados a la ciudadanía, los trámites administrativos asociados a los servicios, y los roles involucrados."@es .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/description> "The Public Services Ontology describes concepts related to public services provided to citizens, administrative procedures associated with these services, and the roles involved."@en .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/issued> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by-sa/4.0/> .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/modified> "2026-09-17"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/publisher> _:genid7 .
 _:genid7 <https://schema.org/affiliation> "Federación Española de Municipios y Provincias" .
 _:genid7 <http://xmlns.com/foaf/0.1/name> "FEMP" .
 _:genid7 <http://xmlns.com/foaf/0.1/homepage> <https://www.femp.es/> .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/title> "EDINT Public Services Ontology"@en .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/dc/terms/title> "Ontología EDINT de Servicios Públicos"@es .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "edintserpub" .
-<https://edint.es/def/servicios-publicos#> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://edint.es/def/servicios-publicos#> .
-<https://edint.es/def/servicios-publicos#> <http://www.w3.org/2000/01/rdf-schema#label> "Public Services"@en .
-<https://edint.es/def/servicios-publicos#> <http://www.w3.org/2000/01/rdf-schema#label> "Servicios Públicos"@es .
-<https://edint.es/def/servicios-publicos#> <http://www.w3.org/2002/07/owl#priorVersion> <https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/releases/tag/v0.1.0> .
-<https://edint.es/def/servicios-publicos#> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.1" .
-<https://edint.es/def/servicios-publicos#> <https://schema.org/codeRepository> <https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos> .
-<https://edint.es/def/servicios-publicos#> <https://schema.org/creativeWorkStatus> "Ontology Specification"@en .
-<https://edint.es/def/servicios-publicos#> <https://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" .
-<https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#jsonldSerialization> "ontology.jsonld" .
-<https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#ntSerialization> "ontology.nt" .
-<https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#rdfxmlSerialization> "ontology.rdf" .
-<https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#turtleSerialization> "ontology.ttl" .
-<https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid8 .
-_:genid8 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.w3.org/ns/org> .
-_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "ORG"@es .
-_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "ORG"@en .
-<https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid9 .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/title> "EDINT Public Services Ontology"@en .
+<https://edint.es/def/servicios-publicos> <http://purl.org/dc/terms/title> "Ontología EDINT de Servicios Públicos"@es .
+<https://edint.es/def/servicios-publicos> <http://purl.org/vocab/vann/preferredNamespacePrefix> "edintserpub" .
+<https://edint.es/def/servicios-publicos> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://edint.es/def/servicios-publicos#" .
+<https://edint.es/def/servicios-publicos> <http://www.w3.org/2000/01/rdf-schema#label> "Public Services"@en .
+<https://edint.es/def/servicios-publicos> <http://www.w3.org/2000/01/rdf-schema#label> "Servicios Públicos"@es .
+<https://edint.es/def/servicios-publicos> <http://www.w3.org/2002/07/owl#priorVersion> <https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos/releases/tag/v0.1.0> .
+<https://edint.es/def/servicios-publicos> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.1" .
+<https://edint.es/def/servicios-publicos> <https://schema.org/codeRepository> <https://github.com/EDINT-Ontologia/edint-ontologia-servicios-publicos> .
+<https://edint.es/def/servicios-publicos> <https://schema.org/creativeWorkStatus> "Ontology Specification"@en .
+<https://edint.es/def/servicios-publicos> <https://schema.org/funding> "Espacio de Datos para las Infraestructuras Urbanas Inteligentes (EDINT)" .
+<https://edint.es/def/servicios-publicos> <https://w3id.org/widoco/vocab#jsonldSerialization> "ontology.jsonld" .
+<https://edint.es/def/servicios-publicos> <https://w3id.org/widoco/vocab#ntSerialization> "ontology.nt" .
+<https://edint.es/def/servicios-publicos> <https://w3id.org/widoco/vocab#rdfxmlSerialization> "ontology.rdf" .
+<https://edint.es/def/servicios-publicos> <https://w3id.org/widoco/vocab#turtleSerialization> "ontology.ttl" .
+<https://edint.es/def/servicios-publicos> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid8 .
+_:genid8 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://data.europa.eu/m8g> .
+_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "CPSV-AP (Core Public Service Vocabulary)"@es .
+_:genid8 <http://www.w3.org/2000/01/rdf-schema#label> "CPSV-AP (Core Public Service Vocabulary)"@en .
+<https://edint.es/def/servicios-publicos> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid9 .
 _:genid9 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://purl.org/vocab/cpsv> .
 _:genid9 <http://www.w3.org/2000/01/rdf-schema#label> "CPSV"@es .
 _:genid9 <http://www.w3.org/2000/01/rdf-schema#label> "CPSV"@en .
-<https://edint.es/def/servicios-publicos#> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid10 .
-_:genid10 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://data.europa.eu/m8g> .
-_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "CPSV-AP (Core Public Service Vocabulary)"@es .
-_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "CPSV-AP (Core Public Service Vocabulary)"@en .
+<https://edint.es/def/servicios-publicos> <https://w3id.org/widoco/vocab#vocabularyLabel> _:genid10 .
+_:genid10 <https://w3id.org/widoco/vocab#vocabularyIRI> <http://www.w3.org/ns/org> .
+_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "ORG"@es .
+_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "ORG"@en .
 # 
 # 
 # #################################################################
@@ -248,7 +248,7 @@ _:genid15 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid18 .
 _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid17 .
-_:genid17 <http://www.w3.org/2002/07/owl#hasValue> <https://edint.es/kos/PublicServices> .
+_:genid17 <http://www.w3.org/2002/07/owl#hasValue> <https://edint.es/kos/PublicServiceType> .
 _:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#inScheme> .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
@@ -283,15 +283,6 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <https://edint.es/def/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the current or declared availability of the public service."@en .
 <https://edint.es/def/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#label> "Availability"@en .
 <https://edint.es/def/servicios-publicos#availability> <http://www.w3.org/2000/01/rdf-schema#label> "Disponibilidad"@es .
-# 
-# https://edint.es/def/servicios-publicos#identifier
-<https://edint.es/def/servicios-publicos#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://edint.es/def/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <https://edint.es/def/servicios-publicos#PublicService> .
-<https://edint.es/def/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://edint.es/def/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "A unique textual or numeric code assigned to a public service to enable its identification and management across systems or administrative processes."@en .
-<https://edint.es/def/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Código textual o numérico único asignado a un servicio público para permitir su identificación y gestión en sistemas o procesos administrativos."@es .
-<https://edint.es/def/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identificador"@es .
-<https://edint.es/def/servicios-publicos#identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier"@en .
 # 
 # https://edint.es/def/servicios-publicos#resolutionPeriod
 <https://edint.es/def/servicios-publicos#resolutionPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -388,6 +379,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <https://edint.es/def/servicios-publicos#DestinadoProcedimiento> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represent the target entity of a Public Service."@en .
 <https://edint.es/def/servicios-publicos#DestinadoProcedimiento> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://edint.es/def/servicios-publicos#> .
 <https://edint.es/def/servicios-publicos#DestinadoProcedimiento> <http://www.w3.org/2000/01/rdf-schema#label> "Destinado Procedimiento"@es .
+<https://edint.es/def/servicios-publicos#DestinadoProcedimiento> <http://www.w3.org/2000/01/rdf-schema#label> "Procedure Target"@en .
 # 
 # https://edint.es/def/servicios-publicos#PublicService
 <https://edint.es/def/servicios-publicos#PublicService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -414,13 +406,13 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1
 <https://edint.es/kos/AdministrativeProcedureType> <http://www.w3.org/2000/01/rdf-schema#label> "Administrative Procedure Types"@en .
 <https://edint.es/kos/AdministrativeProcedureType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipos de Procedimientos Administrativos"@es .
 # 
-# https://edint.es/kos/PublicServices
-<https://edint.es/kos/PublicServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://edint.es/kos/PublicServices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<https://edint.es/kos/PublicServices> <http://www.w3.org/2000/01/rdf-schema#comment> "Classification scheme of types of public services."@en .
-<https://edint.es/kos/PublicServices> <http://www.w3.org/2000/01/rdf-schema#comment> "Esquema de clasificación de tipos de servicios públicos."@es .
-<https://edint.es/kos/PublicServices> <http://www.w3.org/2000/01/rdf-schema#label> "Public Services Types"@en .
-<https://edint.es/kos/PublicServices> <http://www.w3.org/2000/01/rdf-schema#label> "Tipos de Servicios Públicos"@es .
+# https://edint.es/kos/PublicServiceType
+<https://edint.es/kos/PublicServiceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://edint.es/kos/PublicServiceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://edint.es/kos/PublicServiceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Classification scheme of types of public services."@en .
+<https://edint.es/kos/PublicServiceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Esquema de clasificación de tipos de servicios públicos."@es .
+<https://edint.es/kos/PublicServiceType> <http://www.w3.org/2000/01/rdf-schema#label> "Public Services Types"@en .
+<https://edint.es/kos/PublicServiceType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipos de Servicios Públicos"@es .
 # 
 # 
 # 

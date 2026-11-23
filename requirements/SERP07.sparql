@@ -1,12 +1,13 @@
 # SERP07: ¿Qué punto de contacto está disponible para cada servicio público?
 
 PREFIX serpub: <https://edint.es/def/servicios-publicos#>
+PREFIX cpap: <https://semiceu.github.io/CPSV-AP/releases/3.2.0/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?servicioPublico ?etiquetaServicio ?puntoContacto ?etiquetaPuntoContacto
 WHERE {
   ?servicioPublico a serpub:PublicService ;
-                   serpub:hasContactPoint ?puntoContacto .
+                   cpap:hasContactPoint ?puntoContacto .
 
   OPTIONAL {
     ?servicioPublico rdfs:label ?etiquetaServicio .

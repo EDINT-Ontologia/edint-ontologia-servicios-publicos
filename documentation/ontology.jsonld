@@ -10,13 +10,13 @@
   "@id" : "_:genid10",
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
-    "@value" : "CPSV-AP (Core Public Service Vocabulary)"
+    "@value" : "ORG"
   }, {
     "@language" : "en",
-    "@value" : "CPSV-AP (Core Public Service Vocabulary)"
+    "@value" : "ORG"
   } ],
   "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
-    "@id" : "http://data.europa.eu/m8g"
+    "@id" : "http://www.w3.org/ns/org"
   } ]
 }, {
   "@id" : "_:genid11",
@@ -51,7 +51,7 @@
   "@id" : "_:genid17",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#hasValue" : [ {
-    "@id" : "https://edint.es/kos/PublicServices"
+    "@id" : "https://edint.es/kos/PublicServiceType"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#inScheme"
@@ -111,13 +111,13 @@
   "@id" : "_:genid8",
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
-    "@value" : "ORG"
+    "@value" : "CPSV-AP (Core Public Service Vocabulary)"
   }, {
     "@language" : "en",
-    "@value" : "ORG"
+    "@value" : "CPSV-AP (Core Public Service Vocabulary)"
   } ],
   "https://w3id.org/widoco/vocab#vocabularyIRI" : [ {
-    "@id" : "http://www.w3.org/ns/org"
+    "@id" : "http://data.europa.eu/m8g"
   } ]
 }, {
   "@id" : "_:genid9",
@@ -403,7 +403,7 @@
   "@id" : "http://xmlns.com/foaf/0.1/name",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://edint.es/def/servicios-publicos#",
+  "@id" : "https://edint.es/def/servicios-publicos",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/terms/abstract" : [ {
     "@language" : "es",
@@ -448,7 +448,7 @@
     "@value" : "2026-09-17"
   } ],
   "http://purl.org/dc/terms/license" : [ {
-    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+    "@id" : "https://creativecommons.org/licenses/by-sa/4.0/"
   } ],
   "http://purl.org/dc/terms/modified" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#date",
@@ -468,7 +468,7 @@
     "@value" : "edintserpub"
   } ],
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
-    "@id" : "https://edint.es/def/servicios-publicos#"
+    "@value" : "https://edint.es/def/servicios-publicos#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -545,6 +545,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
     "@value" : "Destinado Procedimiento"
+  }, {
+    "@language" : "en",
+    "@value" : "Procedure Target"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/Agent"
@@ -614,29 +617,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://edint.es/def/servicios-publicos#AdministrativeProcedure"
-  } ]
-}, {
-  "@id" : "https://edint.es/def/servicios-publicos#identifier",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "A unique textual or numeric code assigned to a public service to enable its identification and management across systems or administrative processes."
-  }, {
-    "@language" : "es",
-    "@value" : "Código textual o numérico único asignado a un servicio público para permitir su identificación y gestión en sistemas o procesos administrativos."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://edint.es/def/servicios-publicos#PublicService"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "Identificador"
-  }, {
-    "@language" : "en",
-    "@value" : "Identifier"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
   "@id" : "https://edint.es/def/servicios-publicos#resolutionPeriod",
@@ -754,7 +734,7 @@
     "@value" : "Tipos de Procedimientos Administrativos"
   } ]
 }, {
-  "@id" : "https://edint.es/kos/PublicServices",
+  "@id" : "https://edint.es/kos/PublicServiceType",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"

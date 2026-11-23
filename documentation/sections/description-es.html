@@ -1,7 +1,7 @@
 <h2 id="desc" class="list">Servicios Públicos: Descripci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
 
 <p>La Figura 1 muestra el modelo conceptual general de la Ontología de Servicios Públicos.</p>
-<p><center><img src="images/diagram.png"/><figcaption>
+<p><center><img src="../diagrams/diagram.png"/><figcaption>
 Figura 1. Modelo conceptual principal de la Ontología de Servicios Públicos</figcaption></center></p> 
 
 La ontología proporciona un modelo conceptual para describir servicios públicos y procedimientos administrativos ofrecidos por administraciones locales. Su objetivo es apoyar la publicación armonizada de información sobre servicios municipales, procedimientos, requisitos, documentación, organizaciones responsables e interacciones administrativas.<br><br>
@@ -15,16 +15,16 @@ Los principales elementos conceptuales de la ontología incluyen:<br>
 
 - <a href="#PublicService">Servicio público</a>: representa un servicio prestado por una administración pública, como la recogida de residuos, la atención ciudadana, los servicios urbanísticos o los servicios sociales.<br>
 - <a href="#AdministrativeProcedure">Procedimiento administrativo</a>: representa un proceso administrativo formal mediante el cual una persona u organización interactúa con la administración, por ejemplo para presentar una solicitud, pedir una licencia, inscribir información, pagar una tasa, obtener un certificado o presentar una queja.<br>
-- <a href="#PublicOrganisation">Organización pública</a>: representa el organismo, departamento o unidad administrativa responsable de prestar un servicio o gestionar un procedimiento.<br>
+- <a href="#http://data.europa.eu/m8g/PublicOrganisation">Organización pública</a>: representa el organismo, departamento o unidad administrativa responsable de prestar un servicio o gestionar un procedimiento.<br>
 - <a href="#Input">Entrada</a>: representa la información, formularios o documentos que deben aportarse para iniciar o completar un procedimiento.<br>
 - <a href="#Output">Salida</a>: representa el resultado producido por un procedimiento, como una autorización, licencia, certificado, resolución o inscripción registral.<br>
-- <a href="#Rule">Regla</a>: representa el marco legal, normativo o administrativo que regula la prestación de un servicio o la ejecución de un procedimiento.<br><br>
+- <a href="#http://purl.org/vocab/cpsv#Rule">Regla</a>: representa el marco legal, normativo o administrativo que regula la prestación de un servicio o la ejecución de un procedimiento.<br><br>
 
 Además de estas clases principales, la ontología puede complementarse con vocabularios controlados para clasificar tipos de servicios públicos y tipos de procedimientos administrativos. Estos vocabularios controlados permiten diferenciar entre el ámbito del servicio, como seguridad pública, gestión de residuos, abastecimiento de agua o mantenimiento urbano, y el tipo de interacción administrativa, como solicitud, comunicación, declaración responsable, autorización, inscripción, pago, queja o recurso.<br>
 
 
 <pre><textarea style="resize:none" readonly id="code1" name="code" rows="25" cols="100">
-ex:ServicioLicenciaObraMenor
+&lt;http://vocab.linkeddata.es/datosabiertos/recurso/servicio-publico/ServicioLicenciaObraMenor&gt;
     a edintserpub:PublicService ;
     rdfs:label "Servicio de licencia de obra menor"@es ;
     dcterms:description "Servicio municipal que permite a la ciudadanía solicitar autorización para realizar obras menores en viviendas, locales o inmuebles dentro del término municipal."@es ;
@@ -36,20 +36,20 @@ ex:ServicioLicenciaObraMenor
     edintserpub:typePublicService edintkossertype:servicioObras ;
 
     # Procedimiento administrativo asociado
-    edintserpub:hasAdministrativeProcedure ex:ProcedimientoLicenciaObraMenor ;
+    edintserpub:hasAdministrativeProcedure &lt;http://vocab.linkeddata.es/datosabiertos/recurso/procedimiento-administrativo/ProcedimientoLicenciaObraMenor&gt; ;
 
     # Área competente
-    edintserpub:hasCompetentAuthority ex:AreaUrbanismo ;
+    edintserpub:hasCompetentAuthority &lt;http://vocab.linkeddata.es/datosabiertos/recurso/area/AreaUrbanismo&gt; ;
 
     # Punto de contacto
-    cv:contactPoint ex:PuntoContactoUrbanismo ;
+    cv:contactPoint &lt;http://vocab.linkeddata.es/datosabiertos/recurso/punto-contacto/PuntoContactoUrbanismo&gt; ;
 
     # Canales
-    cv:hasChannel ex:CanalSedeElectronicaUrbanismo ;
-    cv:hasChannel ex:CanalOficinaAtencionCiudadana ;
+    cv:hasChannel &lt;http://vocab.linkeddata.es/datosabiertos/recurso/canal/CanalSedeElectronicaUrbanismo&gt; ;
+    cv:hasChannel &lt;http://vocab.linkeddata.es/datosabiertos/recurso/canal/CanalOficinaAtencionCiudadana&gt; ;
 
     # Regla aplicable
-    cpsv:follows ex:OrdenanzaUrbanisticaMunicipal .
+    cpsv:follows &lt;http://vocab.linkeddata.es/datosabiertos/recurso/regla/OrdenanzaUrbanisticaMunicipal&gt; .
 
     # SKOS skos-AdministrativeProcedures.ttl
     edintserpub:typeProcedure edintkosproctype:autorizacionLicencia ;
@@ -60,7 +60,7 @@ ex:ServicioLicenciaObraMenor
 
 
 # Organización pública responsable
-ex:AreaUrbanismo
+&lt;http://vocab.linkeddata.es/datosabiertos/recurso/area/AreaUrbanismo&gt;
     a cpsv:PublicOrganisation;
     rdfs:label "Área de Urbanismo del Ayuntamiento de Villa Ejemplo"@es ;
     dcterms:description "Unidad administrativa responsable de gestionar los servicios y procedimientos municipales en materia urbanística."@es ;
@@ -68,7 +68,7 @@ ex:AreaUrbanismo
 
 
 # Punto de contacto
-ex:PuntoContactoUrbanismo
+&lt;http://vocab.linkeddata.es/datosabiertos/recurso/punto-contacto/PuntoContactoUrbanismo&gt;
     a cv:ContactPoint ;
     rdfs:label "Punto de contacto del Área de Urbanismo"@es ;
     schema:email "urbanismo@madrid.es" ;
@@ -76,20 +76,19 @@ ex:PuntoContactoUrbanismo
     schema:contactType "Información y tramitación urbanística"@es .
 
 # Canal específico de urbanismo
-ex:CanalSedeElectronicaUrbanismo
+&lt;http://vocab.linkeddata.es/datosabiertos/recurso/canal/CanalSedeElectronicaUrbanismo&gt;
     a cv:Channel ;
     rdfs:label "Sede electrónica municipal para trámites urbanísticos"@es ;
     schema:url &lt;https://sede.madrid.es/urbanismo/licencia-obra-menor&gt; ;
     dcterms:description "Canal electrónico para presentar la solicitud de licencia de obra menor y consultar el estado del procedimiento."@es .
 
 # Regla aplicable al procedimiento urbanístico
-ex:OrdenanzaUrbanisticaMunicipal
+&lt;http://vocab.linkeddata.es/datosabiertos/recurso/regla/OrdenanzaUrbanisticaMunicipal&gt;
     a cpsv:Rule ;
     rdfs:label "Ordenanza municipal reguladora de actuaciones urbanísticas"@es ;
     dcterms:description "Norma municipal que regula los requisitos, condiciones y documentación aplicables a la tramitación de licencias urbanísticas."@es ;
     dcterms:identifier "RULE-URB-001" .
 
-</textarea></pre>
-<script>var editor1 = CodeMirror.fromTextArea(document.getElementById("code1"), {mode: "text/turtle", matchBrackets: true});</script>
+</textarea></pre><script>var editor1 = CodeMirror.fromTextArea(document.getElementById("code1"), {mode: "text/turtle", matchBrackets: true});</script>
 
 
