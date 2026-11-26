@@ -13,7 +13,7 @@
 edintkos:PublicServiceType
     a skos:ConceptScheme ;
     dct:issued "2026-05-11"^^xsd:date ;
-    cc:license <https://creativecommons.org/licenses/by/4.0/> ;
+    cc:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
     skos:prefLabel "Tipos de servicios públicos"@es ;
     skos:prefLabel "Public service types"@en ;
     dct:description "Vocabulario controlado para clasificar servicios públicos municipales."@es ;
