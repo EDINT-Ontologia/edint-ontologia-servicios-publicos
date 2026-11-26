@@ -14,7 +14,7 @@
 edintkos:AdministrativeProcedureType
     a skos:ConceptScheme ;
     dct:issued "2026-05-14"^^xsd:date ;
-    cc:license <https://creativecommons.org/licenses/by/4.0/> ;
+    cc:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
     skos:prefLabel "Tipos de procedimientos administrativos"@es ;
     skos:prefLabel "Administrative procedure types"@en ;
     dct:title "Esquema de conceptos para clasificar tipos de procedimientos administrativos"@es ;
