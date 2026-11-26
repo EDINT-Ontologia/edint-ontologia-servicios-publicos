@@ -4,7 +4,7 @@
 @prefix edintkossertype:      <https://edint.es/kos/PublicServiceType/> .
 @prefix edintkosproctype:     <https://edint.es/kos/AdministrativeProcedureType/> .
 
-@prefix ex:     <http://example.org/recurso/> .
+@prefix ex:     <https://example.org/recurso/> .
 
 @prefix cpsv:                 <http://purl.org/vocab/cpsv#> .
 @prefix cpap:                 <https://semiceu.github.io/CPSV-AP/releases/3.2.0/> .
